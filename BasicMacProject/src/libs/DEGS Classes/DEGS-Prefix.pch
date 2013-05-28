@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DEGS' target in the 'DEGS' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

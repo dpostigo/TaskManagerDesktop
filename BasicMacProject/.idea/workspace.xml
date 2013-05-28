@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="" />
+    <ignored path="SidebarDemo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/TableRowObject.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368817314264" ignored="false" />
+    <file path="/TableSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368722211231" ignored="false" />
+    <file path="/SidebarOutlineView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368666255279" ignored="false" />
+    <file path="/SidebarOutlineView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368665627342" ignored="false" />
+    <file path="/Dummy.txt" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369742088034" ignored="false" />
+    <file path="/BasicOutlineViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368796060446" ignored="false" />
+    <file path="/SidebarViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368712013712" ignored="false" />
+    <file path="/VeryBasicViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368995765746" ignored="false" />
+    <file path="/BasicOutlineViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369576320442" ignored="false" />
+    <file path="/TableRowObject.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369414161194" ignored="false" />
+    <file path="/SidebarViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368835023577" ignored="false" />
+    <file path="/VeryBasicViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369440846738" ignored="false" />
+    <file path="/AppDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369574392144" ignored="false" />
+    <file path="/AppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369601113447" ignored="false" />
+    <file path="$PROJECT_DIR$/src/libs/FixedSplitView/FixedMainMenu.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368709337106" ignored="false" />
+    <file path="$PROJECT_DIR$/src/libs/FixedSplitView/FixedSplitViewAppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368709337106" ignored="false" />
+    <file path="/BasicTableCellView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369412240222" ignored="false" />
+    <file path="/TableSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368758548401" ignored="false" />
+    <file path="/BasicWindow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368713551861" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Red Tag/BasicMacProject/English.lproj/MainMenu.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368713710347" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Red Tag/BasicMacProject/src/libs/Osprey/ShadowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368718445667" ignored="false" />
+    <file path="/AppWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368982795928" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Red Tag/BasicMacProject/src/app/windows/AppWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368718600624" ignored="false" />
+    <file path="/LoginViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368726759492" ignored="false" />
+    <file path="/BasicTableViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368728626540" ignored="false" />
+    <file path="/BasicListViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368718812477" ignored="false" />
+    <file path="/BasicTableViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369442745618" ignored="false" />
+    <file path="/LoginViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368726683135" ignored="false" />
+    <file path="/BasicAppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368719678462" ignored="false" />
+    <file path="/BasicAppDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368835323295" ignored="false" />
+    <file path="/OutlineRowObject.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368720435492" ignored="false" />
+    <file path="/OutlineRowObject.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368720483169" ignored="false" />
+    <file path="/OutlineSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368720584050" ignored="false" />
+    <file path="/OutlineSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368722253508" ignored="false" />
+    <file path="/RowObject.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368819245007" ignored="false" />
+    <file path="/BasicTextFieldCellView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368722367036" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/LoginViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368726685171" ignored="false" />
+    <file path="/BasicTextFieldCellView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368725279348" ignored="false" />
+    <file path="/LoginTableViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368748096939" ignored="false" />
+    <file path="/LoginTableViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369440903714" ignored="false" />
+    <file path="/BasicTableViewDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368727447048" ignored="false" />
+    <file path="/BasicTableViewDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368729130803" ignored="false" />
+    <file path="$PROJECT_DIR$/LoginTableViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368755199808" ignored="false" />
+    <file path="/BasicTableView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368728775406" ignored="false" />
+    <file path="/BasicTableView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368846469442" ignored="false" />
+    <file path="/BasicTableRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369577300220" ignored="false" />
+    <file path="/BasicTableRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368729240327" ignored="false" />
+    <file path="/HouseholdButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368736806499" ignored="false" />
+    <file path="/HouseholdButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368736816598" ignored="false" />
+    <file path="/CBBezier.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368736866826" ignored="false" />
+    <file path="/CBBezier.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368737205852" ignored="false" />
+    <file path="$PROJECT_DIR$/src/controls/buttons/CBButtons/CBLayer.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368737409071" ignored="false" />
+    <file path="/BasicButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368737785598" ignored="false" />
+    <file path="/BasicButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368882579321" ignored="false" />
+    <file path="/AMDarkButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368738511327" ignored="false" />
+    <file path="/AMDarkButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368739763361" ignored="false" />
+    <file path="/BOButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368975278498" ignored="false" />
+    <file path="/BOButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368740925947" ignored="false" />
+    <file path="/BasicButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232382148" ignored="false" />
+    <file path="/BOButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000643776" ignored="false" />
+    <file path="/NSButton+TextColor.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368740882342" ignored="false" />
+    <file path="/BasicButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232315292" ignored="false" />
+    <file path="/BasicTextField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805604517" ignored="false" />
+    <file path="/BasicSecureTextField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368746054899" ignored="false" />
+    <file path="/fragment.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368998343171" ignored="false" />
+    <file path="/GetTasksOperation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369666840363" ignored="false" />
+    <file path="/Model.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514509730" ignored="false" />
+    <file path="/NSObject+NSCoding.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368757796617" ignored="false" />
+    <file path="/BottomViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368758101826" ignored="false" />
+    <file path="/BottomViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369398937201" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/BottomViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997872586" ignored="false" />
+    <file path="/TasksViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369592383830" ignored="false" />
+    <file path="/TasksViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368758498644" ignored="false" />
+    <file path="/BasicTableCellView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368831122632" ignored="false" />
+    <file path="/UIImage+Utils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368759223228" ignored="false" />
+    <file path="/NSTextField+Utils.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368759307933" ignored="false" />
+    <file path="/NSTextField+Utils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368759799195" ignored="false" />
+    <file path="/NSColor+Utils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368759620411" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TasksViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369577557299" ignored="false" />
+    <file path="/AMBackground.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368792841048" ignored="false" />
+    <file path="/AMBackground.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368792862107" ignored="false" />
+    <file path="/BasicWhiteView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369590477550" ignored="false" />
+    <file path="/BasicWhiteView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368792902515" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/SidebarViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997925103" ignored="false" />
+    <file path="/BasicBlackView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368795874006" ignored="false" />
+    <file path="/BasicBackgroundView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579523548" ignored="false" />
+    <file path="/BasicBackgroundView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369590517095" ignored="false" />
+    <file path="/BasicTextField.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805839973" ignored="false" />
+    <file path="/NSDate+BOUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805981402" ignored="false" />
+    <file path="/TitleBarViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368811554625" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TitleBarViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369586041338" ignored="false" />
+    <file path="/TitleBarViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368812152843" ignored="false" />
+    <file path="/AddTaskViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369440311595" ignored="false" />
+    <file path="/AddTaskViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369587436810" ignored="false" />
+    <file path="/ActivityView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368812647106" ignored="false" />
+    <file path="/ActivityView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368812686914" ignored="false" />
+    <file path="/TaskDetailViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885911403" ignored="false" />
+    <file path="/TaskDetailViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691727884" ignored="false" />
+    <file path="/TaskInfoViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368813237621" ignored="false" />
+    <file path="/TokenTestViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368816975147" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/AddTaskViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369575375655" ignored="false" />
+    <file path="/BasicTokenCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368818511358" ignored="false" />
+    <file path="/BasicTokenField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368818201081" ignored="false" />
+    <file path="/ServiceItem.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368819041383" ignored="false" />
+    <file path="/SaveDataOperation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368819416139" ignored="false" />
+    <file path="/BOSilverButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368829910776" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskDetailViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665508742" ignored="false" />
+    <file path="/TaskInfoViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369591244557" ignored="false" />
+    <file path="/INAppStoreWindow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832203192" ignored="false" />
+    <file path="/INAppStoreWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832043191" ignored="false" />
+    <file path="/INTitlebarView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832222024" ignored="false" />
+    <file path="/DPCustomWindow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368833991781" ignored="false" />
+    <file path="/DPCustomWindowButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832441733" ignored="false" />
+    <file path="/DPCustomWindowDelegateProxy.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832685166" ignored="false" />
+    <file path="/DPCustomWindowDelegateProxy.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832739296" ignored="false" />
+    <file path="/DPCustomWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368834609460" ignored="false" />
+    <file path="/DPCustomTitleBarContainer.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368832808772" ignored="false" />
+    <file path="/DPTitleBarView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368833814161" ignored="false" />
+    <file path="/DPTitleBarView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368834574324" ignored="false" />
+    <file path="/BasicCustomWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369008349940" ignored="false" />
+    <file path="/BasicCustomRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691979260" ignored="false" />
+    <file path="/BasicCustomRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691961954" ignored="false" />
+    <file path="/NavigationController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514600248" ignored="false" />
+    <file path="/NavigationController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514663337" ignored="false" />
+    <file path="/NavigationBar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368909777511" ignored="false" />
+    <file path="/BONavigationBar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368850967984" ignored="false" />
+    <file path="/BONavigationBar.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885097762" ignored="false" />
+    <file path="/BOSilverButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368882386481" ignored="false" />
+    <file path="/BOSilverButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368882772987" ignored="false" />
+    <file path="/BOSilverButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232629869" ignored="false" />
+    <file path="/NavigationBar.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579645232" ignored="false" />
+    <file path="/BasicSplitViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885921112" ignored="false" />
+    <file path="/BasicSplitViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665547711" ignored="false" />
+    <file path="/SplitViewContainer.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665093991" ignored="false" />
+    <file path="$USER_HOME$/Downloads/Chrome/2013-05-17/DEGS-master/DEGS/JSTreeController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368890471843" ignored="false" />
+    <file path="$USER_HOME$/Downloads/Chrome/2013-05-17/DEGS-master/DEGS/JSTreeController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368904974111" ignored="false" />
+    <file path="/JSViewWithSlidingViews.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368905076331" ignored="false" />
+    <file path="/DPViewWithSlidingViews.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368905453937" ignored="false" />
+    <file path="/DPViewWithSlidingViews.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368905563756" ignored="false" />
+    <file path="/EtchedButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368909034323" ignored="false" />
+    <file path="/EtchedButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368908974760" ignored="false" />
+    <file path="/EtchedButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368909021475" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/LoginTableViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369441086389" ignored="false" />
+    <file path="/RoundedTopView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368935096796" ignored="false" />
+    <file path="/RoundedTopView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368974870768" ignored="false" />
+    <file path="/BORoundedTopView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368974614533" ignored="false" />
+    <file path="/RoundedView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368974835046" ignored="false" />
+    <file path="/BORoundedTopView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368975040246" ignored="false" />
+    <file path="/BOModalFooterBackgroundView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368974949266" ignored="false" />
+    <file path="/BOModalFooterBackgroundView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369589661852" ignored="false" />
+    <file path="/BOModalTableRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368975894535" ignored="false" />
+    <file path="/RoundedView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579688213" ignored="false" />
+    <file path="/NSBezierPath+DPUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691215032" ignored="false" />
+    <file path="/BOModalTableRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369587324626" ignored="false" />
+    <file path="/BOModalBackgroundView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368978085127" ignored="false" />
+    <file path="/AppConstants.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000677510" ignored="false" />
+    <file path="/BOSidebarBackgroundView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368980561191" ignored="false" />
+    <file path="/NSView+Animation.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997046324" ignored="false" />
+    <file path="/NSView+Animation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369493806808" ignored="false" />
+    <file path="/NSWindow+Animation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997245189" ignored="false" />
+    <file path="/BOWhiteTextButton.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997645430" ignored="false" />
+    <file path="/BOWhiteTextButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997753172" ignored="false" />
+    <file path="/ModalWindow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368997962897" ignored="false" />
+    <file path="/ModalWindow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368998692677" ignored="false" />
+    <file path="/BasicDatePickerCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000224412" ignored="false" />
+    <file path="/BasicDatePickerCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368999161255" ignored="false" />
+    <file path="/BOIconButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000038322" ignored="false" />
+    <file path="/BOIconButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000690076" ignored="false" />
+    <file path="/BOGoldButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232887935" ignored="false" />
+    <file path="/BOGoldButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369002818793" ignored="false" />
+    <file path="/DMSplitView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369008584472" ignored="false" />
+    <file path="/BOTitleBarBackground.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369069905765" ignored="false" />
+    <file path="/BOTitleBarBackground.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579706680" ignored="false" />
+    <file path="/CompleteTaskProcess.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369081007991" ignored="false" />
+    <file path="/NSButton+DPUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369228689583" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskInfoViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369574193569" ignored="false" />
+    <file path="/VeryBasicButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369231840088" ignored="false" />
+    <file path="/TaskDiscussionViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369668125471" ignored="false" />
+    <file path="/TaskDiscussionViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369233393316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/ScopeSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257626598" ignored="false" />
+    <file path="/ScopeSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257242117" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/utils/NSString+JSAdditions.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369255026388" ignored="false" />
+    <file path="/NSString+JSAdditions.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369255013948" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/AddressSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257992161" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/app/models/BulletGroup.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369255432991" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/app/models/Bullet.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369256634887" ignored="false" />
+    <file path="/Bullet.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369255354884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/app/models/Bullet.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369256628735" ignored="false" />
+    <file path="/Bullet.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369426298352" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/AddressSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258309837" ignored="false" />
+    <file path="/AddressSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258206921" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/OutputPage.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258375856" ignored="false" />
+    <file path="/OutputPage.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369427200451" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/PageSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257792277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/PageSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257690255" ignored="false" />
+    <file path="/PageSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257693364" ignored="false" />
+    <file path="/AddressSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257990325" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateSidebar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258375091" ignored="false" />
+    <file path="/EstimateSidebar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258375514" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258375856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258375856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateTable.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258397280" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateTable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258391963" ignored="false" />
+    <file path="/EstimateTable.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423284392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateHeader.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258437936" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/EstimateHeader.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369258434813" ignored="false" />
+    <file path="/EstimateHeader.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369414695311" ignored="false" />
+    <file path="/a.dummy" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369316182759" ignored="false" />
+    <file path="/a.mm" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369576421465" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/CostBreakdownSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369334328165" ignored="false" />
+    <file path="/GetDiscussionProcess.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369349743092" ignored="false" />
+    <file path="/BODiscussionRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369399860225" ignored="false" />
+    <file path="/BODiscussionRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691951465" ignored="false" />
+    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskDiscussionViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369741395383" ignored="false" />
+    <file path="/BODiscussionFooterRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369402381368" ignored="false" />
+    <file path="/BODiscussionFooterRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369667607064" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/CostBreakdownSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425899440" ignored="false" />
+    <file path="/TaskEditViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369575140821" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/OverviewSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369431004530" ignored="false" />
+    <file path="/OverviewSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369430921028" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/EstimateHeader.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369414695622" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/EstimateHeader.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420443288" ignored="false" />
+    <file path="/EstimateHeader.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420441328" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/ScopeBulletsSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369426828501" ignored="false" />
+    <file path="/ScopeBulletsSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369426538858" ignored="false" />
+    <file path="/CostBreakdownSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425896799" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/PDFUtility/AppDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369432340115" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Model.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369431258502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Estimate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420415189" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Estimate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420392672" ignored="false" />
+    <file path="/Estimate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420390065" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/models/BasicObject.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369418369169" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/models/BasicObject.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369418371324" ignored="false" />
+    <file path="/Estimate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420413318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Model.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369431262453" ignored="false" />
+    <file path="/Model.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369431260345" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Job.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420119353" ignored="false" />
+    <file path="/Job.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369420116469" ignored="false" />
+    <file path="/Job.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369419995441" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Job.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369419998188" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/AdditionalExpensesSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425626243" ignored="false" />
+    <file path="/AdditionalExpensesSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425614893" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/TableRow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425759288" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/EstimateTable.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423289072" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/PDFTable.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369424930192" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/PDFTable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369424989201" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/TableRowWithColumns.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423286478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/AdditionalExpensesSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423286478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/CostBreakdownSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423286478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/EstimateTable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425870412" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/PDFColumnedTableRow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423389892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/PDFColumnedTableRow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425351749" ignored="false" />
+    <file path="/PDFTable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369424988093" ignored="false" />
+    <file path="/PDFColumnedTableRow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369423386707" ignored="false" />
+    <file path="/PDFTable.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369424918060" ignored="false" />
+    <file path="/EstimateTable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425870412" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/Drawable.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369424081942" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/OutputPage.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369427313505" ignored="false" />
+    <file path="/PDFColumnedTableRow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425336561" ignored="false" />
+    <file path="/TableRow.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425701982" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/tables/TableRow.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425712361" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/ScopeBulletsSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425964280" ignored="false" />
+    <file path="/ScopeBulletsSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425963977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Bullet.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369426303199" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/app/models/Bullet.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369426305057" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/PDFUtility/en.lproj/MainMenu.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369429821254" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/PDFUtility/AppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369430885515" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/models/BasicModel.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369432140952" ignored="false" />
+    <file path="/BasicModel.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369432138416" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/models/BasicModel.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369432137049" ignored="false" />
+    <file path="/NSImageView+DPImageManager.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514193322" ignored="false" />
+    <file path="/DPImageManager.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514176804" ignored="false" />
+    <file path="/DPImageManager.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514164962" ignored="false" />
+    <file path="/VeryBasicButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369585441324" ignored="false" />
+    <file path="/NSGraphicsContext+DPUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369585894041" ignored="false" />
+    <file path="/BasicBlackView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369586016865" ignored="false" />
+    <file path="/MainViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369604722518" ignored="false" />
+    <file path="/MainViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665449893" ignored="false" />
+    <file path="/SplitViewContainer.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369657719079" ignored="false" />
+    <file path="/DPSplitView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369602798084" ignored="false" />
+    <file path="/DPSplitView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369657771189" ignored="false" />
+    <file path="/DPImageView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369667669064" ignored="false" />
+    <file path="/BasicCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369688138359" ignored="false" />
+    <file path="/BasicCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369690532412" ignored="false" />
+    <file path="/BasicImageCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691751635" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_x86_64" />
+  <component name="FavoritesManager">
+    <favorites_list name="TaskManager" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BasicButtonCell.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeryBasicButtonCell.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicButtonCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#setup#0;n#BasicButtonCell#0" expanded="true" />
+                <element signature="n#drawTitle:withFrame:inView:#0;n#BasicButtonCell#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeryBasicButtonCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="35" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#setup#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#initWithCoder:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#initTextCell:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#initImageCell:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawImage:withFrame:inView:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawBezelWithFrame:inView:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#isOpaque#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawOuter:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawInnerStroke:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawBackgroundFill:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
+                <element signature="n#drawHighlight:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicImageCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="24" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#setup#0;n#BasicImageCell#0" expanded="true" />
+                <element signature="n#initWithCoder:#0;n#BasicImageCell#0" expanded="true" />
+                <element signature="n#initTextCell:#0;n#BasicImageCell#0" expanded="true" />
+                <element signature="n#initImageCell:#0;n#BasicImageCell#0" expanded="true" />
+                <element signature="n#drawWithFrame:inView:#0;n#BasicImageCell#0" expanded="true" />
+                <element signature="n#isOpaque#0;n#BasicImageCell#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSBezierPath+DPUtils.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDiscussionViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="16" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#loadView#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#prepareDataSource#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#heightForRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#tableRowView:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#handlePostButton:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#discussionDidUpdateForTask:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#taskUpdated:withNewItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#addDiscussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#selectedTaskDidUpdate#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#closeTableFooter:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#tableFooterDidClose#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#taskInfoControllerDidClose:#0;n#TaskDiscussionViewController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BODiscussionRowView.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="24" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7640232">
+              <folding>
+                <element signature="n#drawBackgroundInRect:#0;n#BODiscussionRowView#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicImageCell.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BODiscussionFooterRowView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#drawBackgroundInRect:#0;n#BODiscussionFooterRowView#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPImageView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#drawRect:#0;n#DPImageView#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPImageView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppWindow.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/windows/AppWindow.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="79" selection-start="1333" selection-end="1587" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#initWithContentRect:styleMask:backing:defer:#0;n#AppWindow#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppWindow.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/windows/AppWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BODiscussionRowView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOSilverButtonCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/buttonCells/BOSilverButtonCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="17" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m" />
+        <option value="$PROJECT_DIR$/src/controls/image/DPImageView.h" />
+        <option value="$PROJECT_DIR$/src/controls/image/DPImageView.m" />
+        <option value="$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.m" />
+        <option value="$PROJECT_DIR$/src/controls/cells/BasicCell.h" />
+        <option value="$PROJECT_DIR$/src/controls/cells/BasicCell.m" />
+        <option value="$PROJECT_DIR$/src/controls/cells/BasicImageCell.h" />
+        <option value="$PROJECT_DIR$/src/utils/NSImage+NiceScaling.m" />
+        <option value="$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m" />
+        <option value="$PROJECT_DIR$/src/controls/cells/BasicImageCell.m" />
+        <option value="$PROJECT_DIR$/src/controls/table/BasicCustomRowView.h" />
+        <option value="$PROJECT_DIR$/src/controls/table/BasicCustomRowView.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="799" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Clang Issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttonCells" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDWebImage.framework" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Headers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeFrameworkHeadersNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttons" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backoffice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backoffice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="All Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backoffice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="DirectoryView.Xcode" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.30579096" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="TaskManager" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TaskManager">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="SidebarDemo" TARGET_NAME="SidebarDemo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="SidebarDemo" RUN_TARGET_NAME="SidebarDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskManager" type="AppleRunConfiguration" factoryName="Application" singleton="true" SCHEME_NAME="TaskManager" PROJECT_NAME="TaskManager" TARGET_NAME="TaskManager" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="TaskManager" RUN_TARGET_NAME="TaskManager" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TaskManager" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="" />
+      <created>1361051572018</created>
+      <updated>1361051572018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="799" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43829787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08967002" sideWeight="0.73475176" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16284074" sideWeight="0.73475176" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26524824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/views/DPSplitView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="5" selection-start="3012" selection-end="3012" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#initWithCoder:#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#awakeFromNib#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#splitContainerUpdatedMaxHeight:#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#splitContainerUpdatedMinHeight:#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#splitContainerUpdatedMaxWidth:#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#splitContainerUpdatedMinWidth:#0;n#DPSplitView#0" expanded="true" />
+            <element signature="n#otherSplitContainer:#0;n#DPSplitView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/NSImage+NiceScaling.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="34" selection-start="2498" selection-end="2520" vertical-scroll-proportion="0.42261904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/NSImage+NiceScaling.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="83" selection-start="3562" selection-end="3562" vertical-scroll-proportion="2.1130953">
+          <folding>
+            <element signature="n#scaledImageToFitSize:withInterpolation:andBox:#0;n#NSImage#0" expanded="false" />
+            <element signature="n#scaledImageToCoverSize:#0;n#NSImage#0" expanded="false" />
+            <element signature="n#scaledImageToCoverSize:withInterpolation:#0;n#NSImage#0" expanded="false" />
+            <element signature="n#scaledImageToCoverSize:withInterpolation:andBox:#0;n#NSImage#0" expanded="false" />
+            <element signature="n#scaledImageToCoverSize:withInterpolation:andBox:align:#0;n#NSImage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#setup#0;n#BasicButtonCell#0" expanded="true" />
+            <element signature="n#drawTitle:withFrame:inView:#0;n#BasicButtonCell#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="45" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.77380955">
+          <folding>
+            <element signature="n#drawGradient:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawGradient:angle:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawStroke:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawStroke:width:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawShadow:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawShadow:shadowOpacity:#0;n#NSBezierPath#0" expanded="true" />
+            <element signature="n#drawShadowColor:shadowRadius:shadowOffset:shadowOpacity:#0;n#NSBezierPath#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#setup#0;n#BasicImageCell#0" expanded="true" />
+            <element signature="n#initWithCoder:#0;n#BasicImageCell#0" expanded="true" />
+            <element signature="n#initTextCell:#0;n#BasicImageCell#0" expanded="true" />
+            <element signature="n#initImageCell:#0;n#BasicImageCell#0" expanded="true" />
+            <element signature="n#drawWithFrame:inView:#0;n#BasicImageCell#0" expanded="true" />
+            <element signature="n#isOpaque#0;n#BasicImageCell#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/table/BasicCustomRowView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="52" selection-start="3433" selection-end="3433" vertical-scroll-proportion="0.375">
+          <folding>
+            <element signature="n#initWithFrame:#0;n#BasicCustomRowView#0" expanded="false" />
+            <element signature="n#modifiedRect:#0;n#BasicCustomRowView#0" expanded="false" />
+            <element signature="n#drawBackgroundInRect:#0;n#BasicCustomRowView#0" expanded="false" />
+            <element signature="n#setSelected:#0;n#BasicCustomRowView#0" expanded="false" />
+            <element signature="n#isOpaque#0;n#BasicCustomRowView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/table/BasicCustomRowView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="595" selection-end="595" vertical-scroll-proportion="0.7098646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="28" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.83928573">
+          <folding>
+            <element signature="n#initWithDefaultNib#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#loadView#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#toggleTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#taskDetailsDidOpen#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#openTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="e#3625#4032#0" expanded="false" />
+            <element signature="e#4070#4113#0" expanded="false" />
+            <element signature="n#closeTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="e#4652#4951#0" expanded="false" />
+            <element signature="e#4989#5033#0" expanded="false" />
+            <element signature="n#getShadowRect:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#taskDetailsDidClose#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#handleBackButton:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#taskDidUpdate:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#splitView:canCollapseSubview:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#TaskDetailViewController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/app/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="1" selection-start="2666" selection-end="2666" vertical-scroll-proportion="1.1329365">
+          <folding>
+            <element signature="n#applicationDelegateDidFinishLaunching:#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#setupTitleBar#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#loginSucceeded:#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#getTasksSucceeded#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#shouldSignOut#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#shouldAddTask#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#presentModalWindow:#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#shouldPopViewController:#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#closeAddTaskWindow#0;n#AppDelegate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/RoundedView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="1" selection-start="2461" selection-end="2461" vertical-scroll-proportion="1.0674603">
+          <folding>
+            <element signature="n#drawRect:#0;n#RoundedView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="16" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#loadView#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#prepareDataSource#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#heightForRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#tableRowView:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#handlePostButton:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#discussionDidUpdateForTask:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#taskUpdated:withNewItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#addDiscussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#selectedTaskDidUpdate#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#closeTableFooter:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#tableFooterDidClose#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#taskInfoControllerDidClose:#0;n#TaskDiscussionViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#drawBackgroundInRect:#0;n#BODiscussionFooterRowView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="24" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7640232">
+          <folding>
+            <element signature="n#drawBackgroundInRect:#0;n#BODiscussionRowView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22675736" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

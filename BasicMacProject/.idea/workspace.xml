@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="" />
+    <list default="true" id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaskManager.xcodeproj/project.xcworkspace/xcuserdata/dpostigo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/TaskManager.xcodeproj/project.xcworkspace/xcuserdata/dpostigo.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/viewcontrollers/AddTaskViewController.m" afterPath="$PROJECT_DIR$/src/backoffice/viewcontrollers/AddTaskViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/splitViewController/BasicSplitViewController.h" afterPath="$PROJECT_DIR$/src/viewcontrollers/splitViewController/BasicSplitViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.h" afterPath="$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.m" afterPath="$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controls/textfield/BasicTextField.h" afterPath="$PROJECT_DIR$/src/controls/textfield/BasicTextField.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controls/textfield/BasicTextField.m" afterPath="$PROJECT_DIR$/src/controls/textfield/BasicTextField.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/DPSplitView.h" afterPath="$PROJECT_DIR$/src/views/DPSplitView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/DPSplitView.m" afterPath="$PROJECT_DIR$/src/views/DPSplitView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m" afterPath="$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/NavigationController.m" afterPath="$PROJECT_DIR$/src/viewcontrollers/NavigationController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/operations/PostCommentOperation.m" afterPath="$PROJECT_DIR$/src/backoffice/operations/PostCommentOperation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/viewcontrollers/SidebarViewController.m" afterPath="$PROJECT_DIR$/src/backoffice/viewcontrollers/SidebarViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m" afterPath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.h" afterPath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m" afterPath="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskDiscussionViewController.xib" afterPath="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskDiscussionViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.h" afterPath="$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.m" afterPath="$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaskManager.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/TaskManager.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SidebarDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TableRowObject.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368817314264" ignored="false" />
     <file path="/TableSection.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368722211231" ignored="false" />
     <file path="/SidebarOutlineView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368666255279" ignored="false" />
     <file path="/SidebarOutlineView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368665627342" ignored="false" />
-    <file path="/Dummy.txt" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369742088034" ignored="false" />
+    <file path="/Dummy.txt" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370525429924" ignored="false" />
     <file path="/BasicOutlineViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368796060446" ignored="false" />
     <file path="/SidebarViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368712013712" ignored="false" />
     <file path="/VeryBasicViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368995765746" ignored="false" />
     <file path="/BasicOutlineViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369576320442" ignored="false" />
     <file path="/TableRowObject.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369414161194" ignored="false" />
     <file path="/SidebarViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368835023577" ignored="false" />
-    <file path="/VeryBasicViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369440846738" ignored="false" />
+    <file path="/VeryBasicViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370523653445" ignored="false" />
     <file path="/AppDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369574392144" ignored="false" />
     <file path="/AppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369601113447" ignored="false" />
     <file path="$PROJECT_DIR$/src/libs/FixedSplitView/FixedMainMenu.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368709337106" ignored="false" />
@@ -30,7 +54,7 @@
     <file path="/LoginViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368726759492" ignored="false" />
     <file path="/BasicTableViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368728626540" ignored="false" />
     <file path="/BasicListViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368718812477" ignored="false" />
-    <file path="/BasicTableViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369442745618" ignored="false" />
+    <file path="/BasicTableViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370527512224" ignored="false" />
     <file path="/LoginViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368726683135" ignored="false" />
     <file path="/BasicAppDelegate.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368719678462" ignored="false" />
     <file path="/BasicAppDelegate.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368835323295" ignored="false" />
@@ -66,7 +90,7 @@
     <file path="/BOButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369000643776" ignored="false" />
     <file path="/NSButton+TextColor.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368740882342" ignored="false" />
     <file path="/BasicButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232315292" ignored="false" />
-    <file path="/BasicTextField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805604517" ignored="false" />
+    <file path="/BasicTextField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370526821439" ignored="false" />
     <file path="/BasicSecureTextField.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368746054899" ignored="false" />
     <file path="/fragment.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368998343171" ignored="false" />
     <file path="/GetTasksOperation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369666840363" ignored="false" />
@@ -91,7 +115,7 @@
     <file path="/BasicBlackView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368795874006" ignored="false" />
     <file path="/BasicBackgroundView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579523548" ignored="false" />
     <file path="/BasicBackgroundView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369590517095" ignored="false" />
-    <file path="/BasicTextField.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805839973" ignored="false" />
+    <file path="/BasicTextField.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370527595571" ignored="false" />
     <file path="/NSDate+BOUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368805981402" ignored="false" />
     <file path="/TitleBarViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368811554625" ignored="false" />
     <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TitleBarViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369586041338" ignored="false" />
@@ -101,7 +125,7 @@
     <file path="/ActivityView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368812647106" ignored="false" />
     <file path="/ActivityView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368812686914" ignored="false" />
     <file path="/TaskDetailViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885911403" ignored="false" />
-    <file path="/TaskDetailViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691727884" ignored="false" />
+    <file path="/TaskDetailViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370525345324" ignored="false" />
     <file path="/TaskInfoViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368813237621" ignored="false" />
     <file path="/TokenTestViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368816975147" ignored="false" />
     <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/AddTaskViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369575375655" ignored="false" />
@@ -127,7 +151,7 @@
     <file path="/BasicCustomRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691979260" ignored="false" />
     <file path="/BasicCustomRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691961954" ignored="false" />
     <file path="/NavigationController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514600248" ignored="false" />
-    <file path="/NavigationController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369514663337" ignored="false" />
+    <file path="/NavigationController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370523711074" ignored="false" />
     <file path="/NavigationBar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368909777511" ignored="false" />
     <file path="/BONavigationBar.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368850967984" ignored="false" />
     <file path="/BONavigationBar.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885097762" ignored="false" />
@@ -135,7 +159,7 @@
     <file path="/BOSilverButton.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368882772987" ignored="false" />
     <file path="/BOSilverButtonCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369232629869" ignored="false" />
     <file path="/NavigationBar.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369579645232" ignored="false" />
-    <file path="/BasicSplitViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368885921112" ignored="false" />
+    <file path="/BasicSplitViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370523240644" ignored="false" />
     <file path="/BasicSplitViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665547711" ignored="false" />
     <file path="/SplitViewContainer.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665093991" ignored="false" />
     <file path="$USER_HOME$/Downloads/Chrome/2013-05-17/DEGS-master/DEGS/JSTreeController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1368890471843" ignored="false" />
@@ -181,8 +205,8 @@
     <file path="/NSButton+DPUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369228689583" ignored="false" />
     <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskInfoViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369574193569" ignored="false" />
     <file path="/VeryBasicButtonCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369231840088" ignored="false" />
-    <file path="/TaskDiscussionViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369668125471" ignored="false" />
-    <file path="/TaskDiscussionViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369233393316" ignored="false" />
+    <file path="/TaskDiscussionViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370528663128" ignored="false" />
+    <file path="/TaskDiscussionViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370526502078" ignored="false" />
     <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/pdf/ScopeSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257626598" ignored="false" />
     <file path="/ScopeSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369257242117" ignored="false" />
     <file path="$PROJECT_DIR$/../../PDFUtility/PDFUtility/src/utils/NSString+JSAdditions.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369255026388" ignored="false" />
@@ -217,7 +241,6 @@
     <file path="/GetDiscussionProcess.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369349743092" ignored="false" />
     <file path="/BODiscussionRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369399860225" ignored="false" />
     <file path="/BODiscussionRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691951465" ignored="false" />
-    <file path="$PROJECT_DIR$/src/xibs/viewcontrollers/TaskDiscussionViewController.xib" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369741395383" ignored="false" />
     <file path="/BODiscussionFooterRowView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369402381368" ignored="false" />
     <file path="/BODiscussionFooterRowView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369667607064" ignored="false" />
     <file path="$PROJECT_DIR$/../../Back Office/Cocoa/PDFUtility/PDFUtility/src/pdf/CostBreakdownSection.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369425899440" ignored="false" />
@@ -283,12 +306,14 @@
     <file path="/MainViewController.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369604722518" ignored="false" />
     <file path="/MainViewController.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369665449893" ignored="false" />
     <file path="/SplitViewContainer.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369657719079" ignored="false" />
-    <file path="/DPSplitView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369602798084" ignored="false" />
-    <file path="/DPSplitView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369657771189" ignored="false" />
+    <file path="/DPSplitView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370523175916" ignored="false" />
+    <file path="/DPSplitView.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370523164554" ignored="false" />
     <file path="/DPImageView.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369667669064" ignored="false" />
     <file path="/BasicCell.h" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369688138359" ignored="false" />
     <file path="/BasicCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369690532412" ignored="false" />
     <file path="/BasicImageCell.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1369691751635" ignored="false" />
+    <file path="/NSAttributedString+DPUtils.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370525566869" ignored="false" />
+    <file path="/PostCommentOperation.m" changelist="830eac19-84e9-4c02-b2cd-425c4a0a4b48" time="1370527643847" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,108 +333,158 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BasicButtonCell.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.h">
+      <file leaf-file-name="TaskDetailViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VeryBasicButtonCell.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicButtonCell.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="97" column="9" selection-start="2769" selection-end="2769" vertical-scroll-proportion="109.11539">
               <folding>
-                <element signature="n#setup#0;n#BasicButtonCell#0" expanded="true" />
-                <element signature="n#drawTitle:withFrame:inView:#0;n#BasicButtonCell#0" expanded="true" />
+                <element signature="n#initWithDefaultNib#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#loadView#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#toggleTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#openTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="e#3305#3720#0" expanded="true" />
+                <element signature="e#3758#3801#0" expanded="true" />
+                <element signature="n#closeTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#closeTaskDetails:animated:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="e#4378#4697#0" expanded="true" />
+                <element signature="e#4735#4787#0" expanded="true" />
+                <element signature="n#getShadowRect:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#taskDetailsDidClose#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#taskDetailsDidOpen#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#TaskDetailViewController#0" expanded="true" />
+                <element signature="n#viewDidAppear#0;n#TaskDetailViewController#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VeryBasicButtonCell.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="35" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#setup#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#initWithCoder:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#initTextCell:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#initImageCell:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawImage:withFrame:inView:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawBezelWithFrame:inView:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#isOpaque#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawOuter:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawInnerStroke:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawBackgroundFill:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
-                <element signature="n#drawHighlight:frame:#0;n#VeryBasicButtonCell#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicImageCell.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="24" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#setup#0;n#BasicImageCell#0" expanded="true" />
-                <element signature="n#initWithCoder:#0;n#BasicImageCell#0" expanded="true" />
-                <element signature="n#initTextCell:#0;n#BasicImageCell#0" expanded="true" />
-                <element signature="n#initImageCell:#0;n#BasicImageCell#0" expanded="true" />
-                <element signature="n#drawWithFrame:inView:#0;n#BasicImageCell#0" expanded="true" />
-                <element signature="n#isOpaque#0;n#BasicImageCell#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSBezierPath+DPUtils.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskDiscussionViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TaskDiscussionViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="16" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
+            <state line="57" column="38" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.42424244">
               <folding>
                 <element signature="n#loadView#0;n#TaskDiscussionViewController#0" expanded="true" />
-                <element signature="n#prepareDataSource#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#heightForRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#tableRowView:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#configureCell:forRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#handlePostButton:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#discussionDidUpdateForTask:#0;n#TaskDiscussionViewController#0" expanded="true" />
-                <element signature="n#taskUpdated:withNewItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#taskUpdated:discussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#addDiscussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#selectedTaskDidUpdate#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#closeTableFooter:#0;n#TaskDiscussionViewController#0" expanded="true" />
                 <element signature="n#tableFooterDidClose#0;n#TaskDiscussionViewController#0" expanded="true" />
-                <element signature="n#taskInfoControllerDidClose:#0;n#TaskDiscussionViewController#0" expanded="true" />
+                <element signature="n#textFieldDidChange:notification:#0;n#TaskDiscussionViewController#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BODiscussionRowView.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginTableViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/LoginTableViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="19" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTableViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="1" selection-start="4553" selection-end="4751" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#insertRowObject:inSection:#0;n#BasicTableViewController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTextField.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/textfield/BasicTextField.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="50" selection-start="1514" selection-end="1514" vertical-scroll-proportion="-7.1153846">
+              <folding>
+                <element signature="n#setText:#0;n#BasicTextField#0" expanded="true" />
+                <element signature="n#textDidChange:#0;n#BasicTextField#0" expanded="true" />
+                <element signature="n#notifyDelegate:object:andObject:#0;n#BasicTextField#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostCommentOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/operations/PostCommentOperation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="38" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTextField.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controls/textfield/BasicTextField.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="4" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDiscussionViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="92" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSAttributedString+DPUtils.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSAttributedString+DPUtils.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTaskViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/AddTaskViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="241" column="1" selection-start="11235" selection-end="11235" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#handleCancelButton:#0;n#AddTaskViewController#0" expanded="true" />
+                <element signature="n#handleCreateButton:#0;n#AddTaskViewController#0" expanded="true" />
+                <element signature="n#handleValidation:#0;n#AddTaskViewController#0" expanded="true" />
+                <element signature="n#textFieldEndedEditing:withRowObject:tableSection:#0;n#AddTaskViewController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetTasksOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="17" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BODiscussionRowView.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7640232">
+            <state line="29" column="21" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#drawBackgroundInRect:#0;n#BODiscussionRowView#0" expanded="true" />
               </folding>
@@ -426,44 +501,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BODiscussionFooterRowView.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m">
+      <file leaf-file-name="BasicSplitViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/viewcontrollers/splitViewController/BasicSplitViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#drawBackgroundInRect:#0;n#BODiscussionFooterRowView#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DPImageView.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#drawRect:#0;n#DPImageView#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DPImageView.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+            <state line="19" column="52" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppWindow.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backoffice/windows/AppWindow.m">
+      <file leaf-file-name="BODiscussionFooterRowView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="79" selection-start="1333" selection-end="1587" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#initWithContentRect:styleMask:backing:defer:#0;n#AppWindow#0" expanded="true" />
-              </folding>
+            <state line="29" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -513,22 +564,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m" />
-        <option value="$PROJECT_DIR$/src/controls/image/DPImageView.h" />
-        <option value="$PROJECT_DIR$/src/controls/image/DPImageView.m" />
-        <option value="$PROJECT_DIR$/src/controls/buttons/buttonCells/VeryBasicButtonCell.m" />
-        <option value="$PROJECT_DIR$/src/controls/cells/BasicCell.h" />
-        <option value="$PROJECT_DIR$/src/controls/cells/BasicCell.m" />
-        <option value="$PROJECT_DIR$/src/controls/cells/BasicImageCell.h" />
-        <option value="$PROJECT_DIR$/src/utils/NSImage+NiceScaling.m" />
-        <option value="$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.m" />
-        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m" />
-        <option value="$PROJECT_DIR$/src/controls/cells/BasicImageCell.m" />
-        <option value="$PROJECT_DIR$/src/controls/table/BasicCustomRowView.h" />
-        <option value="$PROJECT_DIR$/src/controls/table/BasicCustomRowView.m" />
-        <option value="$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m" />
-        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m" />
         <option value="$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m" />
+        <option value="$PROJECT_DIR$/src/views/DPSplitView.h" />
+        <option value="$PROJECT_DIR$/src/views/DPSplitView.m" />
+        <option value="$PROJECT_DIR$/src/viewcontrollers/splitViewController/BasicSplitViewController.h" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/AddTaskViewController.m" />
+        <option value="$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/operations/GetTasksOperation.m" />
+        <option value="$PROJECT_DIR$/src/viewcontrollers/NavigationController.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m" />
+        <option value="$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.h" />
+        <option value="$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.m" />
+        <option value="$PROJECT_DIR$/src/controls/textfield/BasicTextField.m" />
+        <option value="$PROJECT_DIR$/src/controls/textfield/BasicTextField.h" />
+        <option value="$PROJECT_DIR$/src/backoffice/operations/PostCommentOperation.m" />
+        <option value="$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m" />
       </list>
     </option>
   </component>
@@ -603,6 +654,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -844,13 +913,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.30579096" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="TaskManager" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.TaskManager">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="SidebarDemo" TARGET_NAME="SidebarDemo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="SidebarDemo" RUN_TARGET_NAME="SidebarDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -893,17 +962,37 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="799" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43829787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08967002" sideWeight="0.73475176" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16284074" sideWeight="0.73475176" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26524824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21664275" sideWeight="0.5248227" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08751793" sideWeight="0.5248227" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47517732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -981,7 +1070,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/views/DPSplitView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="5" selection-start="3012" selection-end="3012" vertical-scroll-proportion="0.0">
+        <state line="36" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#initWithCoder:#0;n#DPSplitView#0" expanded="true" />
             <element signature="n#awakeFromNib#0;n#DPSplitView#0" expanded="true" />
@@ -994,183 +1083,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/NSImage+NiceScaling.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="34" selection-start="2498" selection-end="2520" vertical-scroll-proportion="0.42261904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/NSImage+NiceScaling.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="83" selection-start="3562" selection-end="3562" vertical-scroll-proportion="2.1130953">
-          <folding>
-            <element signature="n#scaledImageToFitSize:withInterpolation:andBox:#0;n#NSImage#0" expanded="false" />
-            <element signature="n#scaledImageToCoverSize:#0;n#NSImage#0" expanded="false" />
-            <element signature="n#scaledImageToCoverSize:withInterpolation:#0;n#NSImage#0" expanded="false" />
-            <element signature="n#scaledImageToCoverSize:withInterpolation:andBox:#0;n#NSImage#0" expanded="false" />
-            <element signature="n#scaledImageToCoverSize:withInterpolation:andBox:align:#0;n#NSImage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controls/buttons/BasicButtonCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#setup#0;n#BasicButtonCell#0" expanded="true" />
-            <element signature="n#drawTitle:withFrame:inView:#0;n#BasicButtonCell#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+DPUtils.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="45" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.77380955">
-          <folding>
-            <element signature="n#drawGradient:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawGradient:angle:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawStroke:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawStroke:width:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawShadow:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawShadow:shadowOpacity:#0;n#NSBezierPath#0" expanded="true" />
-            <element signature="n#drawShadowColor:shadowRadius:shadowOffset:shadowOpacity:#0;n#NSBezierPath#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#setup#0;n#BasicImageCell#0" expanded="true" />
-            <element signature="n#initWithCoder:#0;n#BasicImageCell#0" expanded="true" />
-            <element signature="n#initTextCell:#0;n#BasicImageCell#0" expanded="true" />
-            <element signature="n#initImageCell:#0;n#BasicImageCell#0" expanded="true" />
-            <element signature="n#drawWithFrame:inView:#0;n#BasicImageCell#0" expanded="true" />
-            <element signature="n#isOpaque#0;n#BasicImageCell#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controls/table/BasicCustomRowView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="52" selection-start="3433" selection-end="3433" vertical-scroll-proportion="0.375">
-          <folding>
-            <element signature="n#initWithFrame:#0;n#BasicCustomRowView#0" expanded="false" />
-            <element signature="n#modifiedRect:#0;n#BasicCustomRowView#0" expanded="false" />
-            <element signature="n#drawBackgroundInRect:#0;n#BasicCustomRowView#0" expanded="false" />
-            <element signature="n#setSelected:#0;n#BasicCustomRowView#0" expanded="false" />
-            <element signature="n#isOpaque#0;n#BasicCustomRowView#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controls/table/BasicCustomRowView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="595" selection-end="595" vertical-scroll-proportion="0.7098646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controls/cells/BasicImageCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="28" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.83928573">
+        <state line="97" column="9" selection-start="2769" selection-end="2769" vertical-scroll-proportion="109.11539">
           <folding>
-            <element signature="n#initWithDefaultNib#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#loadView#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#toggleTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#taskDetailsDidOpen#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#openTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="e#3625#4032#0" expanded="false" />
-            <element signature="e#4070#4113#0" expanded="false" />
-            <element signature="n#closeTaskDetails:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="e#4652#4951#0" expanded="false" />
-            <element signature="e#4989#5033#0" expanded="false" />
-            <element signature="n#getShadowRect:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#taskDetailsDidClose#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#handleBackButton:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#taskDidUpdate:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#splitView:canCollapseSubview:#0;n#TaskDetailViewController#0" expanded="false" />
-            <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#TaskDetailViewController#0" expanded="false" />
+            <element signature="n#initWithDefaultNib#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#loadView#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#toggleTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#openTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="e#3305#3720#0" expanded="true" />
+            <element signature="e#3758#3801#0" expanded="true" />
+            <element signature="n#closeTaskDetails:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#closeTaskDetails:animated:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="e#4378#4697#0" expanded="true" />
+            <element signature="e#4735#4787#0" expanded="true" />
+            <element signature="n#getShadowRect:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#taskDetailsDidClose#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#taskDetailsDidOpen#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#TaskDetailViewController#0" expanded="true" />
+            <element signature="n#viewDidAppear#0;n#TaskDetailViewController#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backoffice/app/AppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/src/backoffice/windows/AppWindow.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="1" selection-start="2666" selection-end="2666" vertical-scroll-proportion="1.1329365">
+        <state line="49" column="79" selection-start="1333" selection-end="1587" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/image/DPImageView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/NSAttributedString+DPUtils.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/textfield/BasicTextField.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="4" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controls/textfield/BasicTextField.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="50" selection-start="1514" selection-end="1514" vertical-scroll-proportion="-7.1153846">
           <folding>
-            <element signature="n#applicationDelegateDidFinishLaunching:#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#setupTitleBar#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#loginSucceeded:#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#getTasksSucceeded#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#shouldSignOut#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#shouldAddTask#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#presentModalWindow:#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#shouldPopViewController:#0;n#AppDelegate#0" expanded="false" />
-            <element signature="n#closeAddTaskWindow#0;n#AppDelegate#0" expanded="false" />
+            <element signature="n#setText:#0;n#BasicTextField#0" expanded="true" />
+            <element signature="n#textDidChange:#0;n#BasicTextField#0" expanded="true" />
+            <element signature="n#notifyDelegate:object:andObject:#0;n#BasicTextField#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RoundedView.m">
+    <entry file="file://$PROJECT_DIR$/src/backoffice/operations/PostCommentOperation.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="1" selection-start="2461" selection-end="2461" vertical-scroll-proportion="1.0674603">
+        <state line="58" column="38" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewcontrollers/NavigationController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="42" selection-start="5517" selection-end="5517" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#drawRect:#0;n#RoundedView#0" expanded="false" />
+            <element signature="n#addViewController:#0;n#NavigationController#0" expanded="true" />
+            <element signature="n#addViewController:animated:#0;n#NavigationController#0" expanded="true" />
+            <element signature="e#5199#5217#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewcontrollers/VeryBasicViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="51" selection-start="5164" selection-end="5164" vertical-scroll-proportion="1.4213483">
+          <folding>
+            <element signature="n#resignAllTextFields#0;n#VeryBasicViewController#0" expanded="true" />
+            <element signature="n#triggerNextControl:#0;n#VeryBasicViewController#0" expanded="true" />
+            <element signature="n#viewDidAppear#0;n#VeryBasicViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/LoginTableViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="19" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/AddTaskViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="1" selection-start="11235" selection-end="11235" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#handleCancelButton:#0;n#AddTaskViewController#0" expanded="true" />
+            <element signature="n#handleCreateButton:#0;n#AddTaskViewController#0" expanded="true" />
+            <element signature="n#handleValidation:#0;n#AddTaskViewController#0" expanded="true" />
+            <element signature="n#textFieldEndedEditing:withRowObject:tableSection:#0;n#AddTaskViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewcontrollers/BasicTableViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="1" selection-start="4553" selection-end="4751" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#insertRowObject:inSection:#0;n#BasicTableViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="92" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backoffice/viewcontrollers/TaskDiscussionViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="16" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
+        <state line="57" column="38" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.42424244">
           <folding>
             <element signature="n#loadView#0;n#TaskDiscussionViewController#0" expanded="true" />
-            <element signature="n#prepareDataSource#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#heightForRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#tableRowView:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#configureCell:forRowObject:tableSection:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#handlePostButton:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#discussionDidUpdateForTask:#0;n#TaskDiscussionViewController#0" expanded="true" />
-            <element signature="n#taskUpdated:withNewItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
+            <element signature="n#taskUpdated:discussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#addDiscussionItem:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#selectedTaskDidUpdate#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#closeTableFooter:#0;n#TaskDiscussionViewController#0" expanded="true" />
             <element signature="n#tableFooterDidClose#0;n#TaskDiscussionViewController#0" expanded="true" />
-            <element signature="n#taskInfoControllerDidClose:#0;n#TaskDiscussionViewController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionFooterRowView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#drawBackgroundInRect:#0;n#BODiscussionFooterRowView#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backoffice/controls/table/rowViews/BODiscussionRowView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7640232">
-          <folding>
-            <element signature="n#drawBackgroundInRect:#0;n#BODiscussionRowView#0" expanded="true" />
+            <element signature="n#textFieldDidChange:notification:#0;n#TaskDiscussionViewController#0" expanded="true" />
           </folding>
         </state>
       </provider>

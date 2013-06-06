@@ -21,6 +21,8 @@
 #import "NSButton+DPUtils.h"
 #import "BODiscussionFooterRowView.h"
 #import "NSImageView+DPImageManager.h"
+#import "NSAttributedString+DPUtils.h"
+#import "BOGoldButtonCell.h"
 
 #define KEYBOARD_HEIGHT 0
 
@@ -29,7 +31,7 @@
     TTTTimeIntervalFormatter *formatter;
     BasicTextFieldCellView *footerCell;
     NSString *selectedCommentText;
-    NSTextField *commentTextField;
+    BasicTextField *commentTextField;
     NSButton *postButton;
     CGFloat keyboardHeight;
     DiscussionItem *tempItem;
@@ -53,6 +55,7 @@
 
 - (void) prepareDataSource {
     [super prepareDataSource];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
 
     [dataSource removeAllObjects];
 
@@ -65,6 +68,7 @@
     }
 
     [tableSection.rows addObject: [[TableRowObject alloc] initWithContent: nil cellIdentifier: @"FooterCell"]];
+    [tableSection.rows addObject: [[TableRowObject alloc] initWithContent: nil cellIdentifier: @"ButtonCell"]];
     [dataSource addObject: tableSection];
 
 }
@@ -90,6 +94,9 @@
 
     if ([rowObject.cellIdentifier isEqualToString: @"FooterCell"]) {
         rowView = [[BODiscussionFooterRowView alloc] init];
+    } else if ([rowObject.cellIdentifier isEqualToString: @"ButtonCell"]) {
+        rowView = [[NSTableRowView alloc] init];
+
     } else {
         rowView = [[BODiscussionRowView alloc] init];
         rowView.width -= 60;
@@ -106,21 +113,17 @@
     BasicTextFieldCellView *cell = (BasicTextFieldCellView *) tableCell;
 
     if ([rowObject.cellIdentifier isEqualToString: @"DataCell"]) {
-
         DiscussionItem *item = rowObject.content;
         cell.textLabel.stringValue = item.text;
 
 
-        if (item.contact == nil) {
-            User *contact = [_model contactForId: item.contactId];
-        } else {
-
-
+        if (item.contact != nil) {
             [cell.imageView setImageWithURL: [item.contact.thumbnailURL URL]];
 
             //            [cell.imageView prettifyWithBackgroundColor: [UIColor clearColor]];
         }
-        cell.detailTextLabel.text = [formatter stringForTimeIntervalFromDate: item.createdDate toDate: [NSDate date]];
+        cell.captionLabel.text = [formatter stringForTimeIntervalFromDate: item.createdDate toDate: [NSDate date]];
+        cell.detailTextLabel.text = [NSString stringWithFormat: @"%@ said: ", item.contact.displayName];
 
         //        [cell.imageView rasterize];
     } else if ([rowObject.cellIdentifier isEqualToString: @"FooterCell"]) {
@@ -129,10 +132,18 @@
         [cell.imageView setImageWithURL: [_model.currentUser.thumbnailURL URL]];
 
         //        [cell.imageView prettifyWithBackgroundColor: [UIColor clearColor]];
-        //        [self subscribeTextField: cell.textField];
+        //                [self subscribeTextField: cell.textField];
 
-        [cell.textField.cell setPlaceholderString: @"Add a comment..."];
-        commentTextField = cell.textField;
+        [self subscribeControl: cell.textField];
+
+        [cell.textField.cell setPlaceholderAttributedString: [NSAttributedString attributedString: @"Add a comment..." textColor: [NSColor colorWithDeviceWhite: 0.0 alpha: 0.6]]];
+        //        [cell.textField.cell setPlaceholderString: @"Add a comment..."];
+        commentTextField = (BasicTextField *) cell.textField;
+        commentTextField.delegate = self;
+    } else if ([rowObject.cellIdentifier isEqualToString: @"ButtonCell"]) {
+
+        BOGoldButtonCell *buttonCell = cell.button.cell;
+        buttonCell.strokeColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.5];
         postButton = cell.button;
         [cell.button addTarget: self action: @selector(handlePostButton:)];
     }
@@ -159,10 +170,14 @@
 #pragma mark IBActions
 
 - (IBAction) handlePostButton: (id) sender {
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     NSButton *button = sender;
     button.enabled = NO;
     [commentTextField resignFirstResponder];
+    [self resignAllTextFields];
     selectedCommentText = commentTextField.stringValue;
+    NSLog(@"selectedCommentText = %@", selectedCommentText);
 
     //    self.activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
     //    activityView.centerY = button.centerY;
@@ -198,9 +213,14 @@
     [table reloadData];
 }
 
-- (void) taskUpdated: (Task *) task withNewItem: (DiscussionItem *) item {
+- (void) taskUpdated: (Task *) task discussionItem: (DiscussionItem *) item {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+    NSLog(@"task.id = %@", task.id);
+    NSLog(@"_model.selectedTask.id = %@", _model.selectedTask.id);
 
     if ([task.id isEqualToString: _model.selectedTask.id]) {
+
         //        [activityView stopAnimating];
         commentTextField.stringValue = @"";
 
@@ -213,42 +233,38 @@
 }
 
 - (void) addDiscussionItem: (DiscussionItem *) item {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     tempItem = item;
     TableSection *tableSection = [dataSource objectAtIndex: 0];
-    TableRowObject *rowObject = [[TableRowObject alloc] initWithContent: item cellIdentifier: @"MessageCell"];
+    TableRowObject *rowObject = [[TableRowObject alloc] initWithContent: item cellIdentifier: @"DataCell"];
     [_model.selectedTask.discussion addObject: item];
+
     //    [self insertRowObject: rowObject inSection: tableSection];
+
+    [table beginUpdates];
+
+    NSIndexSet *indexSet;
+    indexSet = [NSIndexSet indexSetWithIndexesInRange: NSMakeRange(tableSection.rows.count - 2, 2)];
+    [tableSection.rows removeObject: [tableSection.rows lastObject]];
+    [tableSection.rows removeObject: [tableSection.rows lastObject]];
+    [table removeRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
+
+
+//    indexSet = [NSIndexSet indexSetWithIndex: tableSection.rows.count - 1];
+//    [tableSection.rows addObject: rowObject];
+//    [table insertRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
+    [table endUpdates];
+
+    NSLog(@"added ?");
 }
 
 
 - (void) selectedTaskDidUpdate {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     [self prepareDataSource];
     [table reloadData];
 }
 
-
-#pragma mark TextFields
-
-//
-//- (BOOL) textFieldShouldBeginEditing: (UITextField *) textField {
-//    [detailController closeTaskDetails: self];
-//    table.tableFooterView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, table.width, keyboardHeight)];
-//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow: 0 inSection: 1];
-//    [table scrollToRowAtIndexPath: indexPath atScrollPosition: UITableViewScrollPositionTop animated: YES];
-//    return YES;
-//}
-//
-//- (void) textFieldDidReturn: (UITextField *) aTextField {
-//    [super textFieldDidReturn: aTextField];
-//    if (aTextField == commentTextField) {
-//        selectedCommentText = commentTextField.text;
-//    }
-//}
-//
-//- (BOOL) textField: (UITextField *) textField shouldChangeCharactersInRange: (NSRange) range replacementString: (NSString *) string {
-//    postButton.enabled = [textField.text length] > 0;
-//    return [super textField: textField shouldChangeCharactersInRange: range replacementString: string];
-//}
 
 
 #pragma mark Keyboard
@@ -294,7 +310,35 @@
     //    table.tableFooterView = nil;
 }
 
-- (void) taskInfoControllerDidClose: (id) object {
+
+
+#pragma mark BasicTextField
+
+- (void) textFieldDidChange: (BasicTextField *) textField notification: (NSNotification *) notification {
+    postButton.enabled = [textField.stringValue length] > 0;
+
 }
+
+
+
+#pragma mark TextFields
+
+//
+//- (BOOL) textFieldShouldBeginEditing: (UITextField *) textField {
+//    [detailController closeTaskDetails: self];
+//    table.tableFooterView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, table.width, keyboardHeight)];
+//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow: 0 inSection: 1];
+//    [table scrollToRowAtIndexPath: indexPath atScrollPosition: UITableViewScrollPositionTop animated: YES];
+//    return YES;
+//}
+//
+//- (void) textFieldDidReturn: (UITextField *) aTextField {
+//    [super textFieldDidReturn: aTextField];
+//    if (aTextField == commentTextField) {
+//        selectedCommentText = commentTextField.text;
+//    }
+//}
+//
+
 
 @end

@@ -44,7 +44,6 @@
 
             for (NSDictionary *taskDict in dictionary) {
                 Task *task = [[Task alloc] initWithDictionary: taskDict];
-                NSLog(@"task = %@", task);
                 @try {
                     [_model.tasks addObject: task];
 

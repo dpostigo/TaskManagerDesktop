@@ -196,7 +196,7 @@
 }
 
 - (void) selectCurrentTaskMode {
-    NSLog(@"_model.currentTaskMode = %@", _model.currentTaskMode);
+   // NSLog(@"_model.currentTaskMode = %@", _model.currentTaskMode);
 
     NSUInteger rowIndex = 3;
     TableSection *tableSection = [dataSource objectAtIndex: 0];

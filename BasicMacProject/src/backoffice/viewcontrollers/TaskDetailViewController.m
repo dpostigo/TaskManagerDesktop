@@ -12,7 +12,7 @@
 #import "TaskDiscussionViewController.h"
 
 
-#define TASK_INFO_HEIGHT 250
+#define TASK_INFO_HEIGHT 240
 
 @implementation TaskDetailViewController {
 
@@ -69,14 +69,14 @@
 
     bgShadow = [[BasicWhiteView alloc] initWithFrame: NSMakeRect(0, 0, infoController.table.enclosingScrollView.width + 1, infoController.table.enclosingScrollView.height)];
     bgShadow.cornerRadius = 5.0;
-    bgShadow.shadow.shadowColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.5];
+    bgShadow.shadow.shadowColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.9];
     bgShadow.left = (self.view.width - bgShadow.width) / 2;
     bgShadow.autoresizingMask = NSViewWidthSizable | NSViewMinYMargin;
     [self.view addSubview: bgShadow];
     [self.view addSubview: splitView];
 
 
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    splitView.dividerColor = [NSColor clearColor];
     //
     //    NSRect infoRect = NSMakeRect(0, TASK_INFO_HEIGHT, 599, TASK_INFO_HEIGHT);
     //    NSRect shadowRect = [self getShadowRect: infoRect];
@@ -102,34 +102,22 @@
 }
 
 
-- (void) taskDetailsDidOpen {
-    isOpen = YES;
-    isAnimating = NO;
-    [_model notifyDelegates: @selector(taskInfoControllerDidOpen:) object: nil];
-}
-
-
 - (void) openTaskDetails: (id) sender {
     if (isAnimating) return;
     if (isOpen) return;
     isAnimating = YES;
 
-    CGRect rect = discussionContainer.frame;
-    rect.origin.y = infoContainer.top + infoController.firstHeight + 10;
-    rect.size.height = self.view.height - rect.origin.y;
-
 
     NSRect infoRect = infoContainer.frame;
     infoRect.size.height = TASK_INFO_HEIGHT;
     infoRect.origin.y = infoRect.size.height;
-
     //    infoRect.origin.y -= 5;
     NSRect shadowRect = [self getShadowRect: infoRect];
 
 
     [NSAnimationContext runAnimationGroup: ^(NSAnimationContext *context) {
         context.duration = animationDuration;
-//        context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
+        //        context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
         context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseOut];
         [infoContainer.animator setFrame: infoRect];
         [bgShadow.animator setFrame: shadowRect];
@@ -137,6 +125,7 @@
         [self taskDetailsDidOpen];
     }];
 }
+
 
 - (void) closeTaskDetails: (id) sender {
     [self closeTaskDetails: sender animated: YES];
@@ -150,22 +139,25 @@
     isAnimating = YES;
 
 
-    NSRect infoRect = infoContainer.frame;
-    infoRect.size.height = infoController.table.rowHeight;
-    infoRect.origin.y = infoRect.size.height;
-
-
+    NSRect infoRect = NSMakeRect(infoContainer.frame.origin.x, infoController.table.rowHeight, infoContainer.frame.size.width, infoController.table.rowHeight);
     NSRect shadowRect = [self getShadowRect: infoRect];
 
-    [NSAnimationContext runAnimationGroup: ^(NSAnimationContext *context) {
-        context.duration = animationDuration;
-        context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
-        [infoContainer.animator setFrame: infoRect];
-        [bgShadow.animator setFrame: shadowRect];
-    }                   completionHandler: ^{
-        [self taskDetailsDidClose];
-    }];
 
+    if (isAnimated) {
+        [NSAnimationContext runAnimationGroup: ^(NSAnimationContext *context) {
+            context.duration = animationDuration;
+            context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
+            [infoContainer.animator setFrame: infoRect];
+            [bgShadow.animator setFrame: shadowRect];
+        }                   completionHandler: ^{
+            [self taskDetailsDidClose];
+        }];
+    }
+    else {
+        infoContainer.frame = infoRect;
+        bgShadow.frame = shadowRect;
+        [self taskDetailsDidClose];
+    }
 
 }
 
@@ -177,16 +169,28 @@
     shadowRect.size.height = infoRect.size.height + offsetY;
     shadowRect.origin.y = point.y - offsetY;
 
+    NSLog(@"shadowRect = %@", NSStringFromRect(shadowRect));
     return shadowRect;
 
 
 }
+
+
+#pragma mark Task Details AnimationCallbacks
 
 - (void) taskDetailsDidClose {
     isOpen = NO;
     isAnimating = NO;
     [_model notifyDelegates: @selector(taskInfoControllerDidClose:) object: nil];
 }
+
+
+- (void) taskDetailsDidOpen {
+    isOpen = YES;
+    isAnimating = NO;
+    [_model notifyDelegates: @selector(taskInfoControllerDidOpen:) object: nil];
+}
+
 
 
 //
@@ -307,6 +311,30 @@
         shadowRect.origin.y = rect.origin.y + 4;
         bgShadow.frame = shadowRect;
     }
+
+}
+
+
+
+#pragma mark View lifecycle
+
+- (void) viewDidAppear {
+    [super viewDidAppear];
+    [self fixBgShadow];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+    //
+    //    NSRect infoRect = infoContainer.frame;
+    //    infoRect.size.height = infoController.table.rowHeight;
+    //    infoRect.origin.y = infoRect.size.height;
+    //
+    //
+    //    NSRect shadowRect = [self getShadowRect: infoRect];
+    //
+    //    infoContainer.frame = infoRect;
+    //    bgShadow.frame = shadowRect;
+
+    [self closeTaskDetails: self animated: NO];
 
 }
 

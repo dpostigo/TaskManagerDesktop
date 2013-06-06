@@ -12,7 +12,7 @@
 
 @interface BasicSplitViewController : BasicViewController <NSSplitViewDelegate> {
     BOOL dividerEnabled;
-    IBOutlet NSSplitView *splitView;
+    IBOutlet DPSplitView *splitView;
 }
 
 

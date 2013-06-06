@@ -57,4 +57,5 @@
 - (void) textFieldEndedEditing: (NSTextField *) textField;
 - (void) resignAllTextFields;
 - (void) textFieldEndedEditing: (NSTextField *) textField withRowObject: (TableRowObject *) rowObject tableSection: (TableSection *) tablesection;
+- (void) viewDidAppear;
 @end

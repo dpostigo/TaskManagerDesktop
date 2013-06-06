@@ -55,6 +55,8 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject: jsonDict options: kNilOptions error: nil];
     NSString *jsonString = [[NSString alloc] initWithData: jsonData encoding: NSUTF8StringEncoding];
 
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     NSString *postStr = [NSString stringWithFormat: @"%@", jsonString];
     [request appendPostData: [postStr dataUsingEncoding: NSUTF8StringEncoding]];
     [request startSynchronous];
@@ -68,7 +70,7 @@
             NSLog(@"%@ succeeded.", NSStringFromClass([self class]));
 
             DiscussionItem *item = [[DiscussionItem alloc] initWithDictionary: dictionary];
-            [_model notifyDelegates: @selector(taskUpdated:withNewItem:) object: task andObject: item];
+            [_model notifyDelegates: @selector(taskUpdated:discussionItem:) object: task andObject: item];
         }
     }
 }

@@ -15,8 +15,7 @@
 @synthesize rowObject;
 @synthesize tableSection;
 @synthesize shadow;
-
-@synthesize text;
+@synthesize delegate;
 
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];
@@ -58,10 +57,10 @@
 }
 
 - (void) updateShadow {
-//    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedStringValue];
-//    NSRange range = NSMakeRange(0, string.string.length);
-//    [string addAttribute: NSShadowAttributeName value: shadow range: range];
-//    self.attributedStringValue = string;
+    //    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedStringValue];
+    //    NSRange range = NSMakeRange(0, string.string.length);
+    //    [string addAttribute: NSShadowAttributeName value: shadow range: range];
+    //    self.attributedStringValue = string;
 }
 
 - (void) updateShadowWithString: (NSString *) string {
@@ -71,5 +70,29 @@
     [mutableString addAttribute: NSShadowAttributeName value: shadow range: range];
     self.attributedStringValue = mutableString;
 }
+
+
+
+#pragma mark Convenience
+
+- (void) setText: (NSString *) string {
+    self.stringValue = string;
+}
+#pragma mark Delegating
+
+- (void) textDidChange: (NSNotification *) notification {
+    [super textDidChange: notification];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    [self notifyDelegate: @selector(textFieldDidChange:notification:) object: self andObject: notification];
+}
+
+
+- (void) notifyDelegate: (SEL) selector object: (id) object1 andObject: (id) object2 {
+    if (delegate != nil && [delegate respondsToSelector: selector]) {
+        [delegate performSelector: selector withObject: object1 withObject: object2];
+    }
+
+}
+
 
 @end

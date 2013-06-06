@@ -11,5 +11,9 @@
 
 @interface BasicTextFieldCellView : BasicTableCellView <NSTextFieldDelegate> {
 
+    NSShadow *shadow;
+
 }
+
+@property(nonatomic, strong) NSShadow *shadow;
 @end

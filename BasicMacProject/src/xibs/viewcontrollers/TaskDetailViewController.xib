@@ -147,7 +147,6 @@
 								<string key="NSFrame">{{0, 184}, {480, 218}}</string>
 								<reference key="NSSuperview" ref="633542854"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:13</string>
 								<string key="NSClassName">SplitViewContainer</string>
 							</object>
@@ -187,7 +186,6 @@
 						<string key="NSFrameSize">{480, 450}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<string key="NSClassName">NSView</string>
 					</object>

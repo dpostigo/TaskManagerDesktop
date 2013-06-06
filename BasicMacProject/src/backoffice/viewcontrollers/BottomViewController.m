@@ -18,6 +18,8 @@
     _model.tasks = nil;
     _model.jobs = nil;
     _model.loggedIn = NO;
+
+
     [_queue addOperation: [[SaveDataOperation alloc] init]];
     [_model notifyDelegates: @selector(shouldSignOut) object: nil];
 }

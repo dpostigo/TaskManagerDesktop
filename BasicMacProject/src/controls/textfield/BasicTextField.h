@@ -22,12 +22,7 @@
 @property(nonatomic, assign) TableSection *tableSection;
 @property(nonatomic, strong) NSShadow *shadow;
 @property(nonatomic, copy) NSString *text;
-- (NSColor *) shadowColor;
-- (NSSize) shadowOffset;
-- (CGFloat) shadowBlurRadius;
-- (void) setShadowColor: (NSColor *) color;
-- (void) setShadowOffset: (NSSize) size1;
-- (void) setShadowBlurRadius: (CGFloat) blurRadius;
 - (void) setText: (NSString *) string;
 - (NSString *) text;
+- (void) updateShadow;
 @end

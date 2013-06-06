@@ -15,6 +15,7 @@
 #import "TaskDetailViewController.h"
 #import "SaveDataOperation.h"
 #import "BOModalTableRowView.h"
+#import "GetDiscussionProcess.h"
 //#import "BOWhitePopoverBackgroundView.h"
 
 
@@ -36,7 +37,6 @@
 }
 
 - (void) loadView {
-    //    self.rowSpacing = 1;
     self.taskMode = TASKLISTMODE_MYTASKS;
     [super loadView];
     self.title = @"My Tasks";
@@ -91,14 +91,23 @@
         rowView.cornerOptions = JSLowerLeftCorner | JSLowerRightCorner;
         rowView.cornerRadius = MODAL_CORNER_RADIUS * 0.5;
     }
-    //
-    //    NSUInteger index = [outlineSection.rows indexOfObject: rowObject];
-    //    if (index == [outlineSection.rows count] - 1) {
-    //        rowView.insetRect = NSMakeRect(0, 0, 0, ROW_HEIGHT - LAST_ROW_HEIGHT);
-    //    } else {
-    //        rowView.insetRect = NSMakeRect(0, 0, 0, -0.5);
-    //
-    //    }
+    rowView.gradient = [[NSGradient alloc] initWithColorsAndLocations:
+            [NSColor colorWithDeviceWhite: 0.85 alpha: 1.0f], 0.0,
+            [NSColor colorWithDeviceWhite: 0.90 alpha: 1.0f], 0.1,
+            [NSColor colorWithDeviceWhite: 0.90 alpha: 1.0f], 0.98,
+            [NSColor colorWithDeviceWhite: 0.95 alpha: 1.0f], 0.99,
+            [NSColor colorWithDeviceWhite: 0.93 alpha: 1.0f], 1.0,
+            nil];
+
+
+    rowView.selectedGradient = [[NSGradient alloc] initWithColorsAndLocations:
+            [NSColor colorWithDeviceWhite: 0.2 alpha: 1.0], 0.0,
+            [NSColor colorWithDeviceWhite: 0.3 alpha: 1.0], 0.3,
+            [NSColor colorWithDeviceWhite: 0.3 alpha: 1.0], 0.9,
+            [NSColor colorWithDeviceWhite: 0.1 alpha: 1.0], 1.0,
+            nil];
+
+
     return rowView;
 }
 
@@ -133,7 +142,8 @@
             //            cell.backgroundView.backgroundColor = [NSColor colorWithString: RED_FADED];
             //            cell.backgroundView.layer.borderColor = [NSColor colorWithString: RED_FADED].CGColor;
             //            cell.selectedBackgroundView.backgroundColor = [[NSColor colorWithString: RED_FADED] colorWithAlphaComponent: 0.5];
-            cell.detailTextLabel.shadowColor = [NSColor colorWithWhite: 1.0 alpha: 0.7];
+            //            cell.detailTextLabel.shadowColor = [NSColor colorWithWhite: 1.0 alpha: 0.7];
+
             [cell.button setImage: [NSImage newImageFromResource: @"red-checkbox.png"]];
 
         case TaskDateTypeToday :
@@ -155,10 +165,19 @@
     cell.textLabel.top = ((cell.height - cell.textLabel.height) / 2) + 2;
     cell.captionLabel.left = cell.textLabel.right + 5;
 
-    //    cell.textLabel.shadowColor = cell.detailTextLabel.shadowColor;
-    //    cell.textLabel.shadowOffset = cell.detailTextLabel.shadowOffset;
-    //    cell.captionLabel.shadowColor = cell.detailTextLabel.shadowColor;
-    //    cell.captionLabel.shadowOffset = cell.detailTextLabel.shadowOffset;
+    cell.detailTextLabel.shadow.shadowColor = [NSColor whiteColor];
+    cell.detailTextLabel.shadow.shadowOffset = NSMakeSize(0, -1);
+    cell.detailTextLabel.shadow.shadowBlurRadius = 2.0;
+
+    cell.textLabel.shadow.shadowColor = cell.detailTextLabel.shadow.shadowColor;
+    cell.textLabel.shadow.shadowOffset = cell.detailTextLabel.shadow.shadowOffset;
+    cell.textLabel.shadow.shadowBlurRadius = cell.detailTextLabel.shadow.shadowBlurRadius;
+    cell.captionLabel.shadow.shadowColor = cell.detailTextLabel.shadow.shadowColor;
+    cell.captionLabel.shadow.shadowOffset = cell.detailTextLabel.shadow.shadowOffset;
+
+    [cell.detailTextLabel updateShadow];
+    [cell.detailTextLabel updateShadow];
+    [cell.detailTextLabel updateShadow];
 
     [cell.button setTarget: self];
     cell.button.action = @selector(handleCheckbox:);
@@ -198,12 +217,18 @@
     Task *task = rowObject.content;
     _model.selectedTask = task;
 
-//    if (taskDetailController.isOpen) {
-//        [taskDetailController closeTaskDetails: self];
-//    }
+
+    if (taskDetailController == nil) {
+        taskDetailController = [[TaskDetailViewController alloc] init];
+    } else {
+        if (taskDetailController.isOpen) {
+            [taskDetailController closeTaskDetails: self];
+        }
+
+    }
 
     [self.navigationController pushViewController: taskDetailController animated: YES completion: ^{
-        //        [_queue addOperation: [[GetDiscussionProcess alloc] initWithTask: _model.selectedTask]];
+        [_queue addOperation: [[GetDiscussionProcess alloc] initWithTask: _model.selectedTask]];
     }];
     //    [_model notifyDelegates: @selector(segueWithViewController:) object: [[TaskDetailViewController alloc] initWithDefaultNib]];
     //        [self performSegueWithIdentifier: @"TaskDetailSegue" sender: self];
@@ -265,7 +290,7 @@
 
 #pragma mark Callbacks
 - (void) loginSucceeded: (NSDictionary *) dictionary {
-    [_queue addOperation: [[GetTasksOperation alloc] init]];
+    //    [_queue addOperation: [[GetTasksOperation alloc] init]];
 }
 
 - (void) getTasksSucceeded {

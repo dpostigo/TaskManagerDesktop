@@ -7,7 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSButton (TextColor)
 
+@interface NSTextField (DPUtils)
 
+- (void) setAttributedShadow: (NSShadow *) shadow1;
 @end

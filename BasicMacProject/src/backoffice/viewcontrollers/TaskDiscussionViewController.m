@@ -21,6 +21,7 @@
 #import "NSButton+DPUtils.h"
 #import "BODiscussionFooterRowView.h"
 #import "NSImageView+DPImageManager.h"
+#import "NSTextField+DPUtils.h"
 
 #define KEYBOARD_HEIGHT 0
 
@@ -43,6 +44,8 @@
     formatter = [[TTTTimeIntervalFormatter alloc] init];
     keyboardHeight = 300;
     self.allowsSelection = NO;
+
+
     [_queue addOperation: [[GetDiscussionProcess alloc] initWithTask: _model.selectedTask]];
 }
 
@@ -115,21 +118,23 @@
             User *contact = [_model contactForId: item.contactId];
         } else {
 
-
             [cell.imageView setImageWithURL: [item.contact.thumbnailURL URL]];
 
-            //            [cell.imageView prettifyWithBackgroundColor: [UIColor clearColor]];
         }
-        cell.detailTextLabel.text = [formatter stringForTimeIntervalFromDate: item.createdDate toDate: [NSDate date]];
+        cell.detailTextLabel.stringValue = [formatter stringForTimeIntervalFromDate: item.createdDate toDate: [NSDate date]];
 
-        //        [cell.imageView rasterize];
+
+        cell.detailTextLabel.textColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.5];
+        cell.detailTextLabel.shadow.shadowColor = [NSColor colorWithString: PALE_YELLOW];
+        cell.detailTextLabel.shadow.shadowOffset = NSMakeSize(0, -1);
+        cell.detailTextLabel.shadow.shadowBlurRadius = 1.0;
+        [cell.detailTextLabel updateShadow];
+
     } else if ([rowObject.cellIdentifier isEqualToString: @"FooterCell"]) {
 
 
         [cell.imageView setImageWithURL: [_model.currentUser.thumbnailURL URL]];
 
-        //        [cell.imageView prettifyWithBackgroundColor: [UIColor clearColor]];
-        //        [self subscribeTextField: cell.textField];
 
         [cell.textField.cell setPlaceholderString: @"Add a comment..."];
         commentTextField = cell.textField;

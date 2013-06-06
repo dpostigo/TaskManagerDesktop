@@ -57,8 +57,6 @@
     [self addController: [[BottomViewController alloc] initWithDefaultNib] toView: bottomView];
     [self addController: navigationController toView: mainView];
 
-//    [bottomSplitView setCanCollapse: YES subviewAtIndex: 1];
-//    [mainSplitView setCanCollapse: YES subviewAtIndex: 0];
 }
 
 - (void) openSidebar: (id) sender {

@@ -18,7 +18,7 @@
     if (self) {
 
 
-        gradientColor = [[NSGradient alloc] initWithColorsAndLocations:
+        gradient = [[NSGradient alloc] initWithColorsAndLocations:
                 [NSColor colorWithDeviceWhite: 0.55f alpha: 1.0f], 0.0f,
                 [NSColor colorWithDeviceWhite: 0.60f alpha: 1.0f], 0.2f,
                 [NSColor colorWithDeviceWhite: 0.63f alpha: 1.0f], 0.5f,
@@ -26,7 +26,7 @@
                 [NSColor colorWithDeviceWhite: 0.55f alpha: 1.0f], 1.0f,
                 nil];
 
-        borderColor = [NSColor darkGrayColor];
+        borderColor = [NSColor clearColor];
         cornerRadius = 5.0;
         shadow.shadowColor = [NSColor whiteColor];
 

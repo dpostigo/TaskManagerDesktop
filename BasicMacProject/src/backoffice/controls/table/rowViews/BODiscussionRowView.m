@@ -21,7 +21,7 @@
         NSColor *yellow = [NSColor colorWithString: PALE_YELLOW];
         NSColor *darkColor = [NSColor colorWithString: @"be955b"];
 
-        gradientColor = [[NSGradient alloc] initWithColorsAndLocations:
+        gradient = [[NSGradient alloc] initWithColorsAndLocations:
                 [yellow blendedColorWithFraction: 0.45f ofColor: darkColor], 0.0f,
                 [yellow blendedColorWithFraction: 0.44f ofColor: darkColor], 0.2f,
                 [yellow blendedColorWithFraction: 0.43f ofColor: darkColor], 0.5f,

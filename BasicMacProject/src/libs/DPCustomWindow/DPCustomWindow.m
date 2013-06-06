@@ -179,7 +179,6 @@ static inline CGGradientRef createGradientWithColors(NSColor *startingColor, NSC
 #pragma mark Accessors
 
 - (void) setCornerRadius: (CGFloat) cornerRadius1 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     cornerRadius = cornerRadius1;
     titleBarView.cornerRadius = cornerRadius;
 

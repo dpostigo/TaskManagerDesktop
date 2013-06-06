@@ -12,6 +12,8 @@
 }
 
 
+@synthesize shadow;
+
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];
     if (self) {
@@ -28,6 +30,12 @@
 
 - (BOOL) control: (NSControl *) control textShouldBeginEditing: (NSText *) fieldEditor {
     return YES;
+}
+
+
+- (NSShadow *) shadow {
+    if (shadow == nil) shadow = [[NSShadow alloc] init];
+    return shadow;
 }
 
 @end

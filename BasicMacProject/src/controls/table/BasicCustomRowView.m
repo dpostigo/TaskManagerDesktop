@@ -6,24 +6,7 @@
 
 
 #import "BasicCustomRowView.h"
-
-#import "NSBezierPath+Additions.h"
-#import "KGNoise.h"
 #import "NSBezierPath+DPUtils.h"
-
-
-#define INSETX 16.0f
-#define INSETY 7.0f
-#define RADIUS 3.0f
-#define LEFT_RECT_WIDTH 125.0f // this is the width of the grey part of the cell
-#define SHADOW_BLUR_RADIUS 4.0f
-#define SHADOW_OPACITY 0.4f
-#define SHADOW_OFFSET_X 2.0f
-#define SHADOW_OFFSET_Y -2.0f
-#define LEFT_SIDE_CELL_COLOR [NSColor colorWithCalibratedWhite:0.89 alpha:1.0]
-#define LEFT_SIDE_CELL_COLOR_SELECTED [NSColor colorWithCalibratedRed:0.608 green:0.784 blue:0.910 alpha:1.0]
-#define RIGHT_SIDE_CELL_COLOR [NSColor colorWithCalibratedWhite:0.8 alpha:1.0]
-#define CELL_BORDER_COLOR [NSColor whiteColor]
 
 
 @implementation BasicCustomRowView
@@ -32,19 +15,18 @@
 @synthesize cornerRadius;
 @synthesize cornerOptions;
 @synthesize borderColor;
-@synthesize gradientColor;
-@synthesize backgroundFillColor;
+@synthesize gradient;
 
 @synthesize shadow;
 @synthesize shadowOpacity;
-
-@synthesize noiseOpacity;
-@synthesize selectedNoiseOpacity;
 
 
 @synthesize insetRect;
 
 @synthesize borderWidth;
+
+
+@synthesize selectedGradient;
 
 - (id) initWithFrame: (NSRect) frameRect {
     self = [super initWithFrame: frameRect];
@@ -60,10 +42,10 @@
 
         cornerRadius = 2.0;
         cornerOptions = JSUpperLeftCorner | JSUpperRightCorner | JSLowerLeftCorner | JSLowerRightCorner;
-        backgroundFillColor = [NSColor colorWithCalibratedWhite: 0.89 alpha: 1.0];
+        [NSColor colorWithCalibratedWhite: 0.89 alpha: 1.0];
         borderColor = [NSColor whiteColor];
         borderWidth = 1.0;
-        gradientColor = [[NSGradient alloc] initWithColorsAndLocations:
+        gradient = [[NSGradient alloc] initWithColorsAndLocations:
                 [NSColor colorWithDeviceWhite: 0.85f alpha: 1.0f], 0.0f,
                 [NSColor colorWithDeviceWhite: 0.90f alpha: 1.0f], 0.2f,
                 [NSColor colorWithDeviceWhite: 0.93f alpha: 1.0f], 0.5f,
@@ -71,13 +53,10 @@
                 [NSColor colorWithDeviceWhite: 0.95f alpha: 1.0f], 1.0f,
                 nil];
 
-        noiseOpacity = 0.25;
-        selectedNoiseOpacity = 0.1;
     }
 
     return self;
 }
-
 
 - (NSRect) modifiedRect: (NSRect) rect {
     rect.origin.x += insetRect.origin.x;
@@ -100,10 +79,17 @@
     [roundedPath drawShadow: shadow shadowOpacity: shadowOpacity];
 
     NSBezierPath *path = [NSBezierPath bezierPathWithRoundedRect: dirtyRect xRadius: cornerRadius yRadius: cornerRadius];
-    [path drawGradient: gradientColor angle: -90];
-    //
-    //    if (!selected) [KGNoise drawNoiseWithOpacity: noiseOpacity];
-    //    else [KGNoise drawNoiseWithOpacity: selectedNoiseOpacity];
+    [path drawGradient: gradient angle: -90];
+
+    if (selected) {
+
+        if (selectedGradient == nil) {
+            [path drawGradient: gradient angle: 90];
+        } else {
+            [path drawGradient: selectedGradient angle: 90];
+        }
+    }
+
 
     [path drawStroke: borderColor width: borderWidth];
 

@@ -30,9 +30,7 @@
 @synthesize button;
 @synthesize captionLabel;
 @synthesize backgroundView;
-
 @synthesize secondButton;
-
 @synthesize accessoryButton;
 
 - (id) initWithCoder: (NSCoder *) coder {
@@ -50,25 +48,8 @@
     return self;
 }
 
-
-//- (NSTextField *) textLabel {
-//    return (textLabel == nil ? self.textField : textLabel);
-//}
-//
-//- (NSTextField *) textField {
-//    return super.textField == nil ? textLabel : super.textField;
-//}
-
-//
-//- (void) setBackgroundView: (BasicBackgroundView *) backgroundView1 {
-//    if (backgroundView != nil) [backgroundView removeFromSuperview];
-//
-//    backgroundView = backgroundView1;
-//
-//    //    [self addSubview: backgroundView];
-//    //    for (NSView *subview in array) {
-//    //        [self addSubview: subview];
-//    //    }
-//}
+- (BOOL) isOpaque {
+    return NO;
+}
 
 @end

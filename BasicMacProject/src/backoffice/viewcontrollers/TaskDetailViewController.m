@@ -48,11 +48,6 @@
     self.navigationBar.backButtonItem.target = self;
     self.navigationBar.backButtonItem.action = @selector(handleBackButton:);
 
-    infoContainer.maximumHeight = TASK_INFO_HEIGHT;
-    infoContainer.minimumHeight = TASK_INFO_HEIGHT;
-    infoContainer.height = TASK_INFO_HEIGHT;
-    infoContainer.isLocked = YES;
-
 
     infoController = [[TaskInfoViewController alloc] initWithDefaultNib];
     infoController.detailController = self;
@@ -64,17 +59,30 @@
     [self embedViewController: discussionController inView: discussionContainer];
 
 
+    infoContainer.maximumHeight = TASK_INFO_HEIGHT;
+    infoContainer.minimumHeight = TASK_INFO_HEIGHT;
     infoContainer.height = TASK_INFO_HEIGHT;
+    infoContainer.isLocked = YES;
 
 
-    bgShadow = [[BasicWhiteView alloc] initWithFrame: NSMakeRect(0, 0, infoController.table.enclosingScrollView.width + 1, infoController.table.enclosingScrollView.height)];
-    bgShadow.cornerRadius = 5.0;
-    bgShadow.shadow.shadowColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.5];
-    bgShadow.left = (self.view.width - bgShadow.width) / 2;
-    bgShadow.autoresizingMask = NSViewWidthSizable | NSViewMinYMargin;
-    [self.view addSubview: bgShadow];
-    [self.view addSubview: splitView];
+    splitView.delegate = self;
+    self.dividerEnabled = YES;
 
+    //    [contentSplitView setHoldingPriority: 2 forSubviewAtIndex: 0];
+    //    [contentSplitView setHoldingPriority: 1 forSubviewAtIndex: 1];
+
+    //
+    //    infoContainer.height = TASK_INFO_HEIGHT;
+    //
+    //
+    //    bgShadow = [[BasicWhiteView alloc] initWithFrame: NSMakeRect(0, 0, infoController.table.enclosingScrollView.width + 1, infoController.table.enclosingScrollView.height)];
+    //    bgShadow.cornerRadius = 5.0;
+    //    bgShadow.shadow.shadowColor = [NSColor colorWithDeviceWhite: 0.0 alpha: 0.5];
+    //    bgShadow.left = (self.view.width - bgShadow.width) / 2;
+    //    bgShadow.autoresizingMask = NSViewWidthSizable | NSViewMinYMargin;
+    //    [self.view addSubview: bgShadow];
+    //    [self.view addSubview: splitView];
+    //
 
     NSLog(@"%s", __PRETTY_FUNCTION__);
     //
@@ -85,6 +93,11 @@
     //
     //    shadowRect = NSMakeRect(12, 305, shadowRect.size.width, TASK_INFO_HEIGHT);
     //    bgShadow.frame = shadowRect;
+
+    NSLog(@"navigationBar.width = %f", navigationBar.width);
+    NSLog(@"navigationBar.frame = %@", NSStringFromRect(navigationBar.frame));
+
+    NSLog(@"self.view.width = %f", self.view.width);
 
 }
 
@@ -129,7 +142,7 @@
 
     [NSAnimationContext runAnimationGroup: ^(NSAnimationContext *context) {
         context.duration = animationDuration;
-//        context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
+        //        context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
         context.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseOut];
         [infoContainer.animator setFrame: infoRect];
         [bgShadow.animator setFrame: shadowRect];
@@ -287,16 +300,6 @@
 //}
 
 
-- (BOOL) splitView: (NSSplitView *) splitView1 canCollapseSubview: (NSView *) subview {
-    return NO;
-}
-
-- (CGFloat) splitView: (NSSplitView *) splitView1 constrainMinCoordinate: (CGFloat) proposedMinimumPosition ofSubviewAt: (NSInteger) dividerIndex {
-
-    [self fixBgShadow];
-    return [super splitView: splitView1 constrainMinCoordinate: proposedMinimumPosition ofSubviewAt: dividerIndex];
-}
-
 
 - (void) fixBgShadow {
     if (!hasToggled) {
@@ -309,5 +312,53 @@
     }
 
 }
+
+
+
+#pragma mark BasicSplitViewController
+
+
+
+#pragma mark NSSplitViewDelegate
+//
+//
+//- (BOOL) splitView: (NSSplitView *) splitView1 canCollapseSubview: (NSView *) subview {
+//    return NO;
+//}
+//
+//- (CGFloat) splitView: (NSSplitView *) splitView1 constrainMinCoordinate: (CGFloat) proposedMinimumPosition ofSubviewAt: (NSInteger) dividerIndex {
+//
+//    [self fixBgShadow];
+//    return [super splitView: splitView1 constrainMinCoordinate: proposedMinimumPosition ofSubviewAt: dividerIndex];
+//}
+//
+
+- (CGFloat) splitView: (NSSplitView *) splitView1 constrainMinCoordinate: (CGFloat) proposedMinimumPosition ofSubviewAt: (NSInteger) dividerIndex {
+    CGFloat ret = proposedMinimumPosition;
+    DPSplitView *dpSplit = (DPSplitView *) splitView1;
+    return [self dpSplitView: dpSplit limitedCoordinateForValue: proposedMinimumPosition atDividerIndex: dividerIndex];
+}
+
+
+- (CGFloat) splitView: (NSSplitView *) splitView1 constrainMaxCoordinate: (CGFloat) proposedMaximumPosition ofSubviewAt: (NSInteger) dividerIndex {
+    CGFloat ret = proposedMaximumPosition;
+    DPSplitView *dpSplit = (DPSplitView *) splitView1;
+    return [self dpSplitView: dpSplit limitedCoordinateForValue: proposedMaximumPosition atDividerIndex: dividerIndex];
+}
+
+
+- (CGFloat) splitView: (NSSplitView *) splitView1 constrainSplitPosition: (CGFloat) proposedPosition ofSubviewAt: (NSInteger) dividerIndex {
+    DPSplitView *dpSplit = (DPSplitView *) splitView1;
+    return [self dpSplitView: dpSplit limitedCoordinateForValue: proposedPosition atDividerIndex: dividerIndex];
+}
+
+- (BOOL) splitView: (NSSplitView *) splitView1 shouldAdjustSizeOfSubview: (NSView *) view1 {
+    if ([view1 isKindOfClass: [SplitViewContainer class]]) {
+        SplitViewContainer *splitContainer = (SplitViewContainer *) view1;
+        return !splitContainer.isLocked;
+    }
+    return YES;
+}
+
 
 @end

@@ -6,6 +6,7 @@
 
 
 #import "BasicTextField.h"
+#import "NSTextField+DPUtils.h"
 
 
 @implementation BasicTextField {
@@ -21,47 +22,24 @@
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];
     if (self) {
-        self.shadow = [[NSShadow alloc] init];
-        self.shadowBlurRadius = 0;
-        self.shadowColor = [NSColor clearColor];
-        self.shadowOffset = NSMakeSize(0, 0);
     }
 
     return self;
 }
 
-- (NSColor *) shadowColor {
-    return shadow.shadowColor;
+
+- (NSShadow *) shadow {
+    if (shadow == nil) {
+        shadow = [[NSShadow alloc] init];
+        [shadow addObserver: self forKeyPath: @"shadowColor" options: (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) context: NULL];
+
+    }
+    return shadow;
 }
 
-- (NSSize) shadowOffset {
-    return shadow.shadowOffset;
-}
-
-- (CGFloat) shadowBlurRadius {
-    return shadow.shadowBlurRadius;
-}
-
-- (void) setShadowColor: (NSColor *) color {
-    shadow.shadowColor = color;
-    [self updateShadow];
-}
-
-- (void) setShadowOffset: (NSSize) size {
-    shadow.shadowOffset = size;
-    [self updateShadow];
-}
-
-- (void) setShadowBlurRadius: (CGFloat) blurRadius {
-    shadow.shadowBlurRadius = blurRadius;
-    [self updateShadow];
-}
 
 - (void) updateShadow {
-//    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedStringValue];
-//    NSRange range = NSMakeRange(0, string.string.length);
-//    [string addAttribute: NSShadowAttributeName value: shadow range: range];
-//    self.attributedStringValue = string;
+    [self setAttributedShadow: shadow];
 }
 
 - (void) updateShadowWithString: (NSString *) string {
@@ -71,5 +49,17 @@
     [mutableString addAttribute: NSShadowAttributeName value: shadow range: range];
     self.attributedStringValue = mutableString;
 }
+
+
+- (void) observeValueForKeyPath: (NSString *) keyPath ofObject: (id) object change: (NSDictionary *) change context: (void *) context {
+    if (object == shadow) {
+        [self updateShadow];
+    }
+}
+
+- (void) dealloc {
+    [shadow removeObserver: self forKeyPath: @"shadowColor"];
+}
+
 
 @end

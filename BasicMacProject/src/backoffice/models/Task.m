@@ -7,6 +7,7 @@
 
 
 #import "Task.h"
+#import "Model.h"
 
 
 @implementation Task {
@@ -29,22 +30,24 @@
     self = [super init];
     if (self) {
 
-        self.addedById = [dictionary objectForKey: @"added_by"];
+        self.addedById = [NSString stringWithFormat: @"%@", [dictionary objectForKey: @"added_by"]];
         self.assignee = [[User alloc] initWithDictionary: [dictionary objectForKey: @"contact"]];
-        dueDateString = [dictionary objectForKey: @"due_date"];
         self.id = [NSString stringWithFormat: @"%@", [dictionary objectForKey: @"id"]];
         self.job = [[Job alloc] initWithDictionary: [dictionary objectForKey: @"job"]];
-        self.notes = [dictionary objectForKey: @"notes"];
+        self.notes = [NSString stringWithFormat: @"%@", [dictionary objectForKey: @"notes"]];
         self.serviceItem = [[ServiceItem alloc] initWithDictionary: [dictionary objectForKey: @"service_item"]];
+
+        self.title = [NSString stringWithFormat: @"%@", [dictionary objectForKey: @"task"]];
+        //        self.observerIds = [self safeArrayForKey: @"task_observers" inDictionary: dictionary];
+
         startDateString = [dictionary objectForKey: @"start_date"];
-        self.title = [dictionary objectForKey: @"task"];
-        self.observerIds = [self safeArrayForKey: @"task_observers" inDictionary: dictionary];
+        dueDateString = [dictionary objectForKey: @"due_date"];
 
         dueDateString = [dueDateString isEqual: [NSNull null]] ? nil : dueDateString;
         startDateString = [startDateString isEqual: [NSNull null]] ? nil : startDateString;
-        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-        formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'";
 
+
+        NSDateFormatter *formatter = [Model sharedModel].defaultFormatter;
         if (dueDateString) self.dueDate = [formatter dateFromString: dueDateString];
         if (startDateString) self.startDate = [formatter dateFromString: startDateString];
     }
@@ -54,6 +57,7 @@
 
 - (NSMutableArray *) safeArrayForKey: (NSString *) key inDictionary: (NSDictionary *) dictionary {
     NSArray *array = [dictionary objectForKey: @"task_observers"];
+    NSLog(@"array = %@", array);
     NSMutableArray *ret = [[NSMutableArray alloc] init];
     for (int j = 0; j < [array count]; j++) {
         id object = [array objectAtIndex: j];

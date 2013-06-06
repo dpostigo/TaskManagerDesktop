@@ -44,6 +44,6 @@
 - (void) popViewController;
 - (void) popViewController: (VeryBasicViewController *) controller animated: (BOOL) isAnimated completion: (void (^)()) completionHandler;
 - (void) pushViewController: (VeryBasicViewController *) controller animated: (BOOL) isAnimated;
-- (void) pushViewController: (VeryBasicViewController *) controller animated: (BOOL) isAnimated completion: (void (^)()) completionHandler;
+- (void) pushViewController: (VeryBasicViewController *) newController animated: (BOOL) isAnimated completion: (void (^)()) completionHandler;
 - (VeryBasicViewController *) visibleViewController;
 @end

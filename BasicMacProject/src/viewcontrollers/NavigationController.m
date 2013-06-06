@@ -96,9 +96,9 @@
     [self pushViewController: controller animated: isAnimated completion: nil];
 }
 
-- (void) pushViewController: (VeryBasicViewController *) controller animated: (BOOL) isAnimated completion: (void (^)()) completionHandler {
+- (void) pushViewController: (VeryBasicViewController *) newController animated: (BOOL) isAnimated completion: (void (^)()) completionHandler {
     //    NSViewController *lastController = [viewControllers lastObject];
-    [self addViewController: controller animated: isAnimated completion: completionHandler];
+    [self addViewController: newController animated: isAnimated completion: completionHandler];
 }
 
 - (void) setNavigationBar: (NavigationBar *) navigationBar1 {

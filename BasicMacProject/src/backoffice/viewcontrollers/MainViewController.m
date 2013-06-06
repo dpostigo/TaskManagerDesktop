@@ -20,15 +20,10 @@
 
 - (void) loadView {
     [super loadView];
-
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-
-
 }
 
 - (void) awakeFromNib {
     [super awakeFromNib];
-    NSLog(@"%s", __PRETTY_FUNCTION__);
 
 
     NavigationController *navController = [[NavigationController alloc] initWithRootViewController: [[TasksViewController alloc] initWithDefaultNib]];

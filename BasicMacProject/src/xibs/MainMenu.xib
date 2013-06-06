@@ -1263,58 +1263,6 @@
 				</array>
 				<string key="NSName">_NSMainMenu</string>
 			</object>
-			<object class="NSWindowTemplate" id="513744381">
-				<int key="NSWindowStyleMask">15</int>
-				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 240}, {480, 270}}</string>
-				<int key="NSWTFlags">611844096</int>
-				<string key="NSWindowTitle">Window</string>
-				<string key="NSWindowClass">NSWindow</string>
-				<nil key="NSViewClass"/>
-				<nil key="NSUserInterfaceItemIdentifier"/>
-				<object class="NSView" key="NSWindowView" id="414427165">
-					<reference key="NSNextResponder"/>
-					<int key="NSvFlags">256</int>
-					<array class="NSMutableArray" key="NSSubviews">
-						<object class="NSSplitView" id="385043928">
-							<reference key="NSNextResponder" ref="414427165"/>
-							<int key="NSvFlags">268</int>
-							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="323801251">
-									<reference key="NSNextResponder" ref="385043928"/>
-									<int key="NSvFlags">256</int>
-									<string key="NSFrameSize">{241, 270}</string>
-									<reference key="NSSuperview" ref="385043928"/>
-									<reference key="NSNextKeyView" ref="895351234"/>
-									<string key="NSReuseIdentifierKey">_NS:11</string>
-									<string key="NSClassName">NSView</string>
-								</object>
-								<object class="NSCustomView" id="895351234">
-									<reference key="NSNextResponder" ref="385043928"/>
-									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{242, 0}, {238, 270}}</string>
-									<reference key="NSSuperview" ref="385043928"/>
-									<reference key="NSNextKeyView"/>
-									<string key="NSReuseIdentifierKey">_NS:13</string>
-									<string key="NSClassName">NSView</string>
-								</object>
-							</array>
-							<string key="NSFrameSize">{480, 270}</string>
-							<reference key="NSSuperview" ref="414427165"/>
-							<reference key="NSNextKeyView" ref="323801251"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<bool key="NSIsVertical">YES</bool>
-							<int key="NSDividerStyle">2</int>
-						</object>
-					</array>
-					<string key="NSFrameSize">{480, 270}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView" ref="385043928"/>
-				</object>
-				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
-				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
-				<bool key="NSWindowIsRestorable">YES</bool>
-			</object>
 			<object class="NSCustomObject" id="477261384">
 				<string key="NSClassName">AppDelegate</string>
 			</object>
@@ -1340,7 +1288,7 @@
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{300, 270}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView"/>
+					<reference key="NSWindow"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
@@ -1348,101 +1296,11 @@
 				<string key="NSMaxSize">{300, 292}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
-			<object class="NSWindowTemplate" id="258579558">
-				<int key="NSWindowStyleMask">15</int>
-				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{131, 159}, {800, 650}}</string>
-				<int key="NSWTFlags">1685586944</int>
-				<string key="NSWindowTitle">AppWindow</string>
-				<string key="NSWindowClass">AppWindow</string>
-				<nil key="NSViewClass"/>
-				<nil key="NSUserInterfaceItemIdentifier"/>
-				<string key="NSWindowContentMinSize">{800, 650}</string>
-				<object class="NSView" key="NSWindowView" id="553294934">
-					<reference key="NSNextResponder"/>
-					<int key="NSvFlags">256</int>
-					<array class="NSMutableArray" key="NSSubviews">
-						<object class="NSSplitView" id="575041310">
-							<reference key="NSNextResponder" ref="553294934"/>
-							<int key="NSvFlags">274</int>
-							<array class="NSMutableArray" key="NSSubviews">
-								<object class="NSCustomView" id="447571936">
-									<reference key="NSNextResponder" ref="575041310"/>
-									<int key="NSvFlags">256</int>
-									<array class="NSMutableArray" key="NSSubviews">
-										<object class="NSSplitView" id="689647047">
-											<reference key="NSNextResponder" ref="447571936"/>
-											<int key="NSvFlags">274</int>
-											<array class="NSMutableArray" key="NSSubviews">
-												<object class="NSCustomView" id="780074156">
-													<reference key="NSNextResponder" ref="689647047"/>
-													<int key="NSvFlags">256</int>
-													<string key="NSFrameSize">{250, 302}</string>
-													<reference key="NSSuperview" ref="689647047"/>
-													<reference key="NSNextKeyView" ref="992581753"/>
-													<string key="NSReuseIdentifierKey">_NS:11</string>
-													<string key="NSClassName">NSView</string>
-												</object>
-												<object class="NSCustomView" id="992581753">
-													<reference key="NSNextResponder" ref="689647047"/>
-													<int key="NSvFlags">256</int>
-													<string key="NSFrame">{{251, 0}, {549, 302}}</string>
-													<reference key="NSSuperview" ref="689647047"/>
-													<reference key="NSNextKeyView" ref="686963954"/>
-													<string key="NSReuseIdentifierKey">_NS:13</string>
-													<string key="NSClassName">NSView</string>
-												</object>
-											</array>
-											<string key="NSFrameSize">{800, 302}</string>
-											<reference key="NSSuperview" ref="447571936"/>
-											<reference key="NSNextKeyView" ref="780074156"/>
-											<string key="NSReuseIdentifierKey">_NS:9</string>
-											<bool key="NSIsVertical">YES</bool>
-											<int key="NSDividerStyle">2</int>
-											<object class="NSMutableDictionary" key="NSHoldingPriorities">
-												<integer value="0" key="NS.key.0"/>
-												<real value="250" key="NS.object.0"/>
-											</object>
-										</object>
-									</array>
-									<string key="NSFrameSize">{800, 302}</string>
-									<reference key="NSSuperview" ref="575041310"/>
-									<reference key="NSNextKeyView" ref="689647047"/>
-									<string key="NSReuseIdentifierKey">_NS:11</string>
-									<string key="NSClassName">NSView</string>
-								</object>
-								<object class="NSCustomView" id="686963954">
-									<reference key="NSNextResponder" ref="575041310"/>
-									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{0, 303}, {800, 347}}</string>
-									<reference key="NSSuperview" ref="575041310"/>
-									<reference key="NSNextKeyView"/>
-									<string key="NSReuseIdentifierKey">_NS:13</string>
-									<string key="NSClassName">NSView</string>
-								</object>
-							</array>
-							<string key="NSFrameSize">{800, 650}</string>
-							<reference key="NSSuperview" ref="553294934"/>
-							<reference key="NSNextKeyView" ref="447571936"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<int key="NSDividerStyle">2</int>
-						</object>
-					</array>
-					<string key="NSFrameSize">{800, 650}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView" ref="575041310"/>
-					<string key="NSReuseIdentifierKey">_NS:20</string>
-				</object>
-				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
-				<string key="NSMinSize">{800, 672}</string>
-				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
-				<bool key="NSWindowIsRestorable">YES</bool>
-			</object>
 			<object class="NSWindowTemplate" id="190961738">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{131, 159}, {480, 260}}</string>
-				<int key="NSWTFlags">611849216</int>
+				<int key="NSWTFlags">1685591040</int>
 				<string key="NSWindowTitle">New Task</string>
 				<string key="NSWindowClass">DPCustomWindow</string>
 				<nil key="NSViewClass"/>
@@ -1452,7 +1310,7 @@
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{480, 260}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView"/>
+					<reference key="NSWindow"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
@@ -1490,6 +1348,7 @@
 													<int key="NSvFlags">256</int>
 													<string key="NSFrameSize">{250, 302}</string>
 													<reference key="NSSuperview" ref="523930490"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="850146751"/>
 													<string key="NSReuseIdentifierKey">_NS:11</string>
 													<string key="NSClassName">SplitViewContainer</string>
@@ -1499,6 +1358,7 @@
 													<int key="NSvFlags">256</int>
 													<string key="NSFrame">{{251, 0}, {549, 302}}</string>
 													<reference key="NSSuperview" ref="523930490"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="157616091"/>
 													<string key="NSReuseIdentifierKey">_NS:13</string>
 													<string key="NSClassName">SplitViewContainer</string>
@@ -1506,6 +1366,7 @@
 											</array>
 											<string key="NSFrameSize">{800, 302}</string>
 											<reference key="NSSuperview" ref="125410171"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="612165033"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<bool key="NSIsVertical">YES</bool>
@@ -1518,6 +1379,7 @@
 									</array>
 									<string key="NSFrameSize">{800, 302}</string>
 									<reference key="NSSuperview" ref="1015234240"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="523930490"/>
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 									<string key="NSClassName">SplitViewContainer</string>
@@ -1527,13 +1389,14 @@
 									<int key="NSvFlags">256</int>
 									<string key="NSFrame">{{0, 303}, {800, 347}}</string>
 									<reference key="NSSuperview" ref="1015234240"/>
-									<reference key="NSNextKeyView"/>
+									<reference key="NSWindow"/>
 									<string key="NSReuseIdentifierKey">_NS:13</string>
 									<string key="NSClassName">SplitViewContainer</string>
 								</object>
 							</array>
 							<string key="NSFrameSize">{800, 650}</string>
 							<reference key="NSSuperview" ref="590486937"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="125410171"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<int key="NSDividerStyle">2</int>
@@ -1541,6 +1404,7 @@
 					</array>
 					<string key="NSFrameSize">{800, 650}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="1015234240"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
@@ -2218,22 +2082,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">leftView</string>
-						<reference key="source" ref="477261384"/>
-						<reference key="destination" ref="323801251"/>
-					</object>
-					<int key="connectionID">892</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">rightView</string>
-						<reference key="source" ref="477261384"/>
-						<reference key="destination" ref="895351234"/>
-					</object>
-					<int key="connectionID">893</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">loginWindow</string>
 						<reference key="source" ref="477261384"/>
 						<reference key="destination" ref="643472078"/>
@@ -2255,54 +2103,6 @@
 						<reference key="destination" ref="243858494"/>
 					</object>
 					<int key="connectionID">945</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">bottomSplitView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="575041310"/>
-					</object>
-					<int key="connectionID">907</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">bottomView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="686963954"/>
-					</object>
-					<int key="connectionID">908</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">mainSplitView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="689647047"/>
-					</object>
-					<int key="connectionID">909</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">mainView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="992581753"/>
-					</object>
-					<int key="connectionID">910</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">sidebarView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="780074156"/>
-					</object>
-					<int key="connectionID">911</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">topView</string>
-						<reference key="source" ref="258579558"/>
-						<reference key="destination" ref="447571936"/>
-					</object>
-					<int key="connectionID">912</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -2668,22 +2468,6 @@
 						<int key="objectID">298</int>
 						<reference key="object" ref="237841660"/>
 						<reference key="parent" ref="466310130"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">367</int>
-						<reference key="object" ref="513744381"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="414427165"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">368</int>
-						<reference key="object" ref="414427165"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="385043928"/>
-						</array>
-						<reference key="parent" ref="513744381"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">373</int>
@@ -3370,25 +3154,6 @@
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">882</int>
-						<reference key="object" ref="385043928"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="323801251"/>
-							<reference ref="895351234"/>
-						</array>
-						<reference key="parent" ref="414427165"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">883</int>
-						<reference key="object" ref="323801251"/>
-						<reference key="parent" ref="385043928"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">884</int>
-						<reference key="object" ref="895351234"/>
-						<reference key="parent" ref="385043928"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">895</int>
 						<reference key="object" ref="643472078"/>
 						<array class="NSMutableArray" key="children">
@@ -3400,63 +3165,6 @@
 						<int key="objectID">896</int>
 						<reference key="object" ref="661901223"/>
 						<reference key="parent" ref="643472078"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">899</int>
-						<reference key="object" ref="258579558"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="553294934"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">900</int>
-						<reference key="object" ref="553294934"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="575041310"/>
-						</array>
-						<reference key="parent" ref="258579558"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">901</int>
-						<reference key="object" ref="575041310"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="686963954"/>
-							<reference ref="447571936"/>
-						</array>
-						<reference key="parent" ref="553294934"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">902</int>
-						<reference key="object" ref="686963954"/>
-						<reference key="parent" ref="575041310"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">903</int>
-						<reference key="object" ref="447571936"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="689647047"/>
-						</array>
-						<reference key="parent" ref="575041310"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">904</int>
-						<reference key="object" ref="689647047"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="992581753"/>
-							<reference ref="780074156"/>
-						</array>
-						<reference key="parent" ref="447571936"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">905</int>
-						<reference key="object" ref="992581753"/>
-						<reference key="parent" ref="689647047"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">906</int>
-						<reference key="object" ref="780074156"/>
-						<reference key="parent" ref="689647047"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">923</int>
@@ -3566,10 +3274,6 @@
 				<string key="296.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="297.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="298.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="367.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="367.IBWindowTemplateEditedContentRect">{{307, 836}, {480, 270}}</string>
-				<boolean value="NO" key="367.NSWindowTemplate.visibleAtLaunch"/>
-				<string key="368.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="373.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="375.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="376.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3690,27 +3394,11 @@
 				<string key="821.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="881.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="882.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="883.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="884.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="895.IBNSWindowAutoPositionCentersHorizontal"/>
 				<boolean value="YES" key="895.IBNSWindowAutoPositionCentersVertical"/>
 				<string key="895.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="NO" key="895.NSWindowTemplate.visibleAtLaunch"/>
 				<string key="896.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="899.IBNSWindowAutoPositionCentersHorizontal"/>
-				<boolean value="YES" key="899.IBNSWindowAutoPositionCentersVertical"/>
-				<string key="899.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="NO" key="899.NSWindowTemplate.visibleAtLaunch"/>
-				<string key="900.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="901.CustomClassName">BasicSplitView</string>
-				<string key="901.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="902.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="903.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="904.CustomClassName">BasicSplitView</string>
-				<string key="904.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="905.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="906.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="92.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="923.IBNSWindowAutoPositionCentersHorizontal"/>
 				<boolean value="YES" key="923.IBNSWindowAutoPositionCentersVertical"/>
@@ -3738,7 +3426,276 @@
 			<nil key="sourceID"/>
 			<int key="maxID">948</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">AppDelegate</string>
+					<string key="superclassName">BasicAppDelegate</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="contentWindow">BasicCustomWindow</string>
+						<string key="leftView">NSView</string>
+						<string key="loginWindow">NSWindow</string>
+						<string key="newTaskWindow">DPCustomWindow</string>
+						<string key="rightView">NSView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="contentWindow">
+							<string key="name">contentWindow</string>
+							<string key="candidateClassName">BasicCustomWindow</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="leftView">
+							<string key="name">leftView</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="loginWindow">
+							<string key="name">loginWindow</string>
+							<string key="candidateClassName">NSWindow</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="newTaskWindow">
+							<string key="name">newTaskWindow</string>
+							<string key="candidateClassName">DPCustomWindow</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="rightView">
+							<string key="name">rightView</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/AppDelegate.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicAppDelegate</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicAppDelegate.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicBackgroundView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicBackgroundView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicCustomWindow</string>
+					<string key="superclassName">INAppStoreWindow</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="flowIconClicked:">id</string>
+						<string key="iconSegmentClicked:">id</string>
+						<string key="listSegmentClicked:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="flowIconClicked:">
+							<string key="name">flowIconClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="iconSegmentClicked:">
+							<string key="name">iconSegmentClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="listSegmentClicked:">
+							<string key="name">listSegmentClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicCustomWindow.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicSplitViewController</string>
+					<string key="superclassName">BasicViewController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">splitView</string>
+						<string key="NS.object.0">NSSplitView</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">splitView</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">splitView</string>
+							<string key="candidateClassName">NSSplitView</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicSplitViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicViewController</string>
+					<string key="superclassName">VeryBasicViewController</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="mainScrollView">NSScrollView</string>
+						<string key="titleLabel">NSTextField</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="mainScrollView">
+							<string key="name">mainScrollView</string>
+							<string key="candidateClassName">NSScrollView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="titleLabel">
+							<string key="name">titleLabel</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BasicWhiteView</string>
+					<string key="superclassName">BasicBackgroundView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BasicWhiteView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">DPCustomWindow</string>
+					<string key="superclassName">NSWindow</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/DPCustomWindow.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">DPSplitView</string>
+					<string key="superclassName">NSSplitView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/DPSplitView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">INAppStoreWindow</string>
+					<string key="superclassName">NSWindow</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/INAppStoreWindow.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MainViewController</string>
+					<string key="superclassName">BasicSplitViewController</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="bottomView">SplitViewContainer</string>
+						<string key="contentSplitView">DPSplitView</string>
+						<string key="mainView">SplitViewContainer</string>
+						<string key="sidebar">SplitViewContainer</string>
+						<string key="topView">SplitViewContainer</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="bottomView">
+							<string key="name">bottomView</string>
+							<string key="candidateClassName">SplitViewContainer</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="contentSplitView">
+							<string key="name">contentSplitView</string>
+							<string key="candidateClassName">DPSplitView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="mainView">
+							<string key="name">mainView</string>
+							<string key="candidateClassName">SplitViewContainer</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="sidebar">
+							<string key="name">sidebar</string>
+							<string key="candidateClassName">SplitViewContainer</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="topView">
+							<string key="name">topView</string>
+							<string key="candidateClassName">SplitViewContainer</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MainViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NavigationBar</string>
+					<string key="superclassName">BasicWhiteView</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="backButtonItem">NSButton</string>
+						<string key="titleLabel">NSTextField</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="backButtonItem">
+							<string key="name">backButtonItem</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="titleLabel">
+							<string key="name">titleLabel</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NavigationBar.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SplitViewContainer</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SplitViewContainer.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">VeryBasicViewController</string>
+					<string key="superclassName">NSViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="dismiss:">id</string>
+						<string key="handleSubmitButton:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="dismiss:">
+							<string key="name">dismiss:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="handleSubmitButton:">
+							<string key="name">handleSubmitButton:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="backgroundView">BasicBackgroundView</string>
+						<string key="modalWindow">BasicCustomWindow</string>
+						<string key="navigationBar">NavigationBar</string>
+						<string key="submitButton">NSButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="backgroundView">
+							<string key="name">backgroundView</string>
+							<string key="candidateClassName">BasicBackgroundView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="modalWindow">
+							<string key="name">modalWindow</string>
+							<string key="candidateClassName">BasicCustomWindow</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="navigationBar">
+							<string key="name">navigationBar</string>
+							<string key="candidateClassName">NavigationBar</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="submitButton">
+							<string key="name">submitButton</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/VeryBasicViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

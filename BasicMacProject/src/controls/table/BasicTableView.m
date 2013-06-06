@@ -14,11 +14,9 @@
 
 - (void) awakeFromNib {
     [super awakeFromNib];
-    NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
 - (void) highlightSelectionInClipRect: (NSRect) clipRect {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     // this method is asking us to draw the hightlights for
     // all of the selected rows that are visible inside theClipRect
 

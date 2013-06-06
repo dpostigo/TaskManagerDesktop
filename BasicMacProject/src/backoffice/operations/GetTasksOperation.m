@@ -16,12 +16,16 @@
 }
 
 
+- (BOOL) isConcurrent {
+    return YES;
+}
+
+
 - (void) main {
     [super main];
 
     if (!_model.loggedIn) return;
 
-    NSLog(@"_model.currentUser.id = %@", _model.currentUser.id);
     self.urlString = [NSString stringWithFormat: @"%@/tasks.json?contact_id=%@", STAGING_URL, _model.currentUser.id];
     self.url = [NSURL URLWithString: urlString];
 
@@ -40,72 +44,79 @@
         } else {
 
             NSLog(@"%@ succeeded.", NSStringFromClass([self class]));
-            _model.tasks = [[NSMutableArray alloc] init];
 
-            for (NSDictionary *taskDict in dictionary) {
-                Task *task = [[Task alloc] initWithDictionary: taskDict];
-                NSLog(@"task = %@", task);
-                @try {
-                    [_model.tasks addObject: task];
 
-                }
+            [self handleTasks: dictionary];
+            [self handleJobs];
 
-                @catch (NSException *exception) {
-                    NSLog(@"e.reason = %@", exception.reason);
-
-                }
-                @finally {
-
-                }
-            }
-
-            _model.jobs = [[NSMutableArray alloc] init];
-            NSMutableArray *jobIds = [[NSMutableArray alloc] init];
-            for (Task *task in _model.tasks) {
-                Job *job = task.job;
-                if (![jobIds containsObject: job.id]) {
-                    [jobIds addObject: job.id];
-                    [_model.jobs addObject: job];
-                }
-            }
-
-            [_model.tasks sortUsingComparator:
-                    ^NSComparisonResult(id obj1, id obj2) {
-
-                        Task *task1 = obj1;
-                        Task *task2 = obj2;
-
-                        NSDate *date1 = task1.dueDate;
-                        NSDate *date2 = task2.dueDate;
-
-                        NSComparisonResult result = NSOrderedSame;
-                        if (task1.dueDate == nil || task2.dueDate == nil) {
-
-                            if (date1 == nil && date2 == nil) {
-                                result = NSOrderedSame;
-                            }
-                            else if (task1.dueDate == nil && task2.dueDate != nil) {
-                                result = NSOrderedDescending;
-                            } else if (task1.dueDate != nil && task2.dueDate == nil) {
-                                result = NSOrderedAscending;
-                            }
-                        } else {
-
-                            if ([date1 isOnSameDate: date2 ignoringTimeOfDay: YES]) result = NSOrderedSame;
-
-                            else if ([date1 isLaterThanDate: date2]) {
-                                result = NSOrderedDescending;
-                            } else if ([date1 isEarlierThanDate: date2]) {
-                                result = NSOrderedAscending;
-                            }
-                        }
-                        return result;
-                    }
-            ];
 
             [_model notifyDelegates: @selector(getTasksSucceeded) object: nil];
         }
     }
+}
+
+
+- (void) handleJobs {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    NSMutableArray *jobs = [[NSMutableArray alloc] init];
+    NSMutableArray *jobIds = [[NSMutableArray alloc] init];
+    for (Task *task in _model.tasks) {
+        Job *job = task.job;
+        if (![jobIds containsObject: job.id]) {
+            [jobIds addObject: job.id];
+            [jobs addObject: job];
+        }
+    }
+    _model.jobs = [[NSMutableArray alloc] initWithArray: jobs];
+
+}
+
+- (void) handleTasks: (NSDictionary *) dictionary {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+    NSMutableArray *tasks = [[NSMutableArray alloc] init];
+    for (NSDictionary *taskDict in dictionary) {
+        Task *task = [[Task alloc] initWithDictionary: taskDict];
+        [tasks addObject: task];
+    }
+
+    [tasks sortUsingComparator:
+            ^NSComparisonResult(id obj1, id obj2) {
+                Task *task1 = obj1;
+                Task *task2 = obj2;
+
+                NSDate *date1 = task1.dueDate;
+                NSDate *date2 = task2.dueDate;
+
+                NSComparisonResult result = NSOrderedSame;
+                if (task1.dueDate == nil || task2.dueDate == nil) {
+
+                    if (date1 == nil && date2 == nil) {
+                        result = NSOrderedSame;
+                    }
+                    else if (task1.dueDate == nil && task2.dueDate != nil) {
+                        result = NSOrderedDescending;
+                    } else if (task1.dueDate != nil && task2.dueDate == nil) {
+                        result = NSOrderedAscending;
+                    }
+                } else {
+
+                    if ([date1 isOnSameDate: date2 ignoringTimeOfDay: YES]) result = NSOrderedSame;
+
+                    else if ([date1 isLaterThanDate: date2]) {
+                        result = NSOrderedDescending;
+                    } else if ([date1 isEarlierThanDate: date2]) {
+                        result = NSOrderedAscending;
+                    }
+                }
+                return result;
+            }
+    ];
+
+
+    _model.tasks = [[NSMutableArray alloc] initWithArray: tasks];
+
+
 }
 
 @end

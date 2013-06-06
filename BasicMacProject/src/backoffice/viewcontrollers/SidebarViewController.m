@@ -9,11 +9,13 @@
 #import "SaveDataOperation.h"
 #import "GetTasksOperation.h"
 #import "GetContactsProcess.h"
-#import "NSTextField+Utils.h"
+#import "NSTextField+DPUtils.h"
 #import "BasicWhiteView.h"
 #import "NSColor+Utils.h"
 #import "NSImage+Utils.h"
 #import "GetServiceItemsOperation.h"
+#import "ASIFormDataRequest.h"
+#import "GetTasksOperation2.h"
 
 
 @implementation SidebarViewController {
@@ -40,7 +42,9 @@
     [self expand];
 
 
-    [_queue addOperation: [[GetTasksOperation alloc] init]];
+    //    [_queue addOperation: [[GetTasksOperation alloc] init]];
+
+    NSLog(@"STARTING GET CONTACTS");
     [_queue addOperation: [[GetContactsProcess alloc] init]];
 }
 
@@ -119,8 +123,8 @@
 
 
     cell.textLabel.stringValue = rowObject.textLabel;
-    cell.textLabel.shadowColor = [NSColor blackColor];
-    cell.textLabel.shadowOffset = CGSizeMake(0, 1);
+    //    cell.textLabel.shadowColor = [NSColor blackColor];
+    //    cell.textLabel.shadowOffset = CGSizeMake(0, 1);
     //    cell.textLabel.highlightedTextColor = [UIColor blackColor];
 
     //        cell.selectedBackgroundView = [[BasicWhiteView alloc] init];
@@ -182,9 +186,25 @@
 
 
 - (void) loginSucceeded: (NSDictionary *) dictionary {
-    [_queue addOperation: [[SaveDataOperation alloc] init]];
+    NSLog(@"STARTING GET CONTACTS");
+    //
+    //    GetTasksOperation *operation = [[GetTasksOperation alloc] init];
+    //    [operation setCompletionBlock: ^(){
+    //        NSLog(@"Hello");
+    //    }];
+
+    NSString *urlString = [NSString stringWithFormat: @"%@/tasks.json?contact_id=%@", STAGING_URL, _model.currentUser.id];
+    GetTasksOperation2 *operation = [[GetTasksOperation2 alloc] initWithURL: [NSURL URLWithString: urlString]];
+    [_queue addOperation: operation];
+
+
     [_queue addOperation: [[GetTasksOperation alloc] init]];
-    [_queue addOperation: [[GetContactsProcess alloc] init]];
+}
+
+- (void) contactsDidUpdate {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //    [_queue addOperation: [[GetTasksOperation alloc] init]];
+
 }
 
 - (void) getTasksSucceeded {

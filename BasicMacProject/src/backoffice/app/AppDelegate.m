@@ -11,6 +11,7 @@
 #import "LoginTableViewController.h"
 #import "TitleBarViewController.h"
 #import "AddTaskViewController.h"
+#import "ASIFormDataRequest.h"
 
 
 @implementation AppDelegate {
@@ -25,9 +26,9 @@
     newTaskWindow.cornerRadius = 30;
 
     [_model subscribeDelegate: self];
-//    [contentWindow resetBottomView: self];
-//    [contentWindow resetMainView: self];
-//    [contentWindow resetSidebarView: self];
+    //    [contentWindow resetBottomView: self];
+    //    [contentWindow resetMainView: self];
+    //    [contentWindow resetSidebarView: self];
 
     [self setupTitleBar];
 
@@ -59,12 +60,19 @@
 
 
 - (void) loginSucceeded: (NSDictionary *) dictionary {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+
+
+
     //    [SVProgressHUD showSuccessWithStatus: @"Success!"];
 }
 
 - (void) getTasksSucceeded {
-    [loginWindow close];
-    [contentWindow makeKeyAndOrderFront: self];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //    [loginWindow close];
+    NSLog(@"contentWindow = %@", contentWindow);
+    //    [contentWindow makeKeyAndOrderFront: self];
 }
 
 - (void) shouldSignOut {

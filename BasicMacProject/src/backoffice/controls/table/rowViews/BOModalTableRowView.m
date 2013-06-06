@@ -23,10 +23,10 @@
         shadow.shadowColor = [NSColor lightGrayColor];
 
         cornerRadius = 0.0;
-        backgroundFillColor = [NSColor colorWithCalibratedWhite: 0.95 alpha: 1.0];
+        [NSColor colorWithCalibratedWhite: 0.95 alpha: 1.0];
         borderColor = [NSColor clearColor];
 
-        gradientColor = [[NSGradient alloc] initWithColorsAndLocations:
+        gradient = [[NSGradient alloc] initWithColorsAndLocations:
                 [NSColor colorWithDeviceWhite: 0.85 alpha: 1.0f], 0.0,
                 [NSColor colorWithDeviceWhite: 0.90 alpha: 1.0f], 0.2,
                 [NSColor colorWithDeviceWhite: 0.93 alpha: 1.0f], 0.5,
@@ -35,13 +35,10 @@
                 nil];
 
 
-        noiseOpacity = 0.25;
-        selectedNoiseOpacity = 0.1;
     }
 
     return self;
 }
-
 
 
 @end

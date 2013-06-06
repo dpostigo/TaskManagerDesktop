@@ -43,5 +43,7 @@
 @property(nonatomic, strong) NSDate *dueDate;
 @property(nonatomic, strong) NSDate *completedDate;
 @property(nonatomic, strong) NSMutableArray *discussion;
+
+
 - (id) initWithDictionary: (NSDictionary *) dictionary;
 @end

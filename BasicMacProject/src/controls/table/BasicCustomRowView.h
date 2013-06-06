@@ -12,18 +12,17 @@
 
 @interface BasicCustomRowView : BasicTableRowView {
 
-    CGFloat cornerRadius;
+    NSShadow *shadow;
     NSColor *borderColor;
+    NSGradient *gradient;
+    NSGradient *selectedGradient;
+
+    CGFloat cornerRadius;
     CGFloat borderWidth;
-    NSGradient *gradientColor;
-    NSColor *backgroundFillColor;
     JSRoundedCornerOptions cornerOptions;
 
-    NSShadow *shadow;
 
     CGFloat shadowOpacity;
-    CGFloat noiseOpacity;
-    CGFloat selectedNoiseOpacity;
 
 
     NSRect insetRect;
@@ -34,17 +33,14 @@
 @property(nonatomic) CGFloat cornerRadius;
 
 @property(nonatomic, strong) NSColor *borderColor;
-@property(nonatomic, strong) NSGradient *gradientColor;
-@property(nonatomic, strong) NSColor *backgroundFillColor;
+@property(nonatomic, strong) NSGradient *gradient;
 
 @property(nonatomic) CGFloat shadowOpacity;
 @property(nonatomic, strong) NSShadow *shadow;
 
-@property(nonatomic) CGFloat noiseOpacity;
-@property(nonatomic) CGFloat selectedNoiseOpacity;
-
 @property(nonatomic) NSRect insetRect;
 @property(nonatomic) CGFloat borderWidth;
+@property(nonatomic, strong) NSGradient *selectedGradient;
 - (NSRect) modifiedRect: (NSRect) rect;
 - (void) drawBackgroundInRect: (NSRect) dirtyRect selected: (BOOL) selected;
 @end

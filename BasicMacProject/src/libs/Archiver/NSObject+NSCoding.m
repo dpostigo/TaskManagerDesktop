@@ -64,9 +64,13 @@
         [invocation setSelector: NSSelectorFromString(key)];
         [invocation setTarget: self];
 
+
+        NSArray *components = [type componentsSeparatedByString: @"\""];
+
         switch ([type characterAtIndex: 0]) {
             case '@':   // object
-                if ([[type componentsSeparatedByString: @"\""] count] > 1) {
+
+                if ([components count] > 1) {
                     className = [[type componentsSeparatedByString: @"\""] objectAtIndex: 1];
                     Class class = NSClassFromString(className);
                     value = [self performSelector: NSSelectorFromString(key)];

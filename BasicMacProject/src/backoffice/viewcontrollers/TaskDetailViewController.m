@@ -125,6 +125,8 @@
 - (void) openTaskDetails: (id) sender {
     if (isAnimating) return;
     if (isOpen) return;
+
+
     isAnimating = YES;
 
     CGRect rect = discussionContainer.frame;

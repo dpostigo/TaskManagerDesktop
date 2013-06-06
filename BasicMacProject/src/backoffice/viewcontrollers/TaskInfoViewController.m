@@ -30,6 +30,8 @@
 //    firstHeight = self.view.height;
 //}
 
+@synthesize closedMode;
+
 - (void) loadView {
     [super loadView];
 
@@ -106,6 +108,7 @@
 
 
 - (NSTableRowView *) tableRowView: (TableRowObject *) rowObject tableSection: (TableSection *) tableSection {
+
     BOModalTableRowView *rowView = [[BOModalTableRowView alloc] init];
     if ([rowObject.textLabel isEqualToString: @"Task"]) {
         rowView.cornerOptions = JSUpperLeftCorner | JSUpperRightCorner;

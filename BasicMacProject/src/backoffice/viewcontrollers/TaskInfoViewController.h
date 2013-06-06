@@ -19,9 +19,11 @@
 {
     __unsafe_unretained TaskDetailViewController *detailController;
     CGFloat firstHeight;
+    BOOL closedMode;
 }
 
 
 @property(nonatomic) CGFloat firstHeight;
 @property(nonatomic, assign) TaskDetailViewController *detailController;
+@property(nonatomic) BOOL closedMode;
 @end

@@ -82,7 +82,6 @@
 
 - (void) textDidChange: (NSNotification *) notification {
     [super textDidChange: notification];
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     [self notifyDelegate: @selector(textFieldDidChange:notification:) object: self andObject: notification];
 }
 

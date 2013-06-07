@@ -24,4 +24,6 @@
 - (NSString *) sha1: (NSString *) input;
 
 
+- (void) operationFailedWithString: (NSString *) string;
+- (void) operationSucceededWithString: (NSString *) string;
 @end

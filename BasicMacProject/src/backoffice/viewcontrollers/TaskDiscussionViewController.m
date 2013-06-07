@@ -239,23 +239,26 @@
     TableRowObject *rowObject = [[TableRowObject alloc] initWithContent: item cellIdentifier: @"DataCell"];
     [_model.selectedTask.discussion addObject: item];
 
-    //    [self insertRowObject: rowObject inSection: tableSection];
+    [self prepareDataSource];
+    [table reloadData];
 
-    [table beginUpdates];
-
-    NSIndexSet *indexSet;
-    indexSet = [NSIndexSet indexSetWithIndexesInRange: NSMakeRange(tableSection.rows.count - 2, 2)];
-    [tableSection.rows removeObject: [tableSection.rows lastObject]];
-    [tableSection.rows removeObject: [tableSection.rows lastObject]];
-    [table removeRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
-
-
-//    indexSet = [NSIndexSet indexSetWithIndex: tableSection.rows.count - 1];
-//    [tableSection.rows addObject: rowObject];
-//    [table insertRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
-    [table endUpdates];
-
-    NSLog(@"added ?");
+    //    //    [self insertRowObject: rowObject inSection: tableSection];
+    //
+    //    [table beginUpdates];
+    //
+    //    NSIndexSet *indexSet;
+    //    indexSet = [NSIndexSet indexSetWithIndexesInRange: NSMakeRange(tableSection.rows.count - 2, 2)];
+    //    [tableSection.rows removeObject: [tableSection.rows lastObject]];
+    //    [tableSection.rows removeObject: [tableSection.rows lastObject]];
+    //    [table removeRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
+    //
+    //
+    ////    indexSet = [NSIndexSet indexSetWithIndex: tableSection.rows.count - 1];
+    ////    [tableSection.rows addObject: rowObject];
+    ////    [table insertRowsAtIndexes: indexSet withAnimation: NSTableViewAnimationEffectFade];
+    //    [table endUpdates];
+    //
+    //    NSLog(@"added ?");
 }
 
 

@@ -31,6 +31,8 @@
 - (void) main {
     [super main];
 
+    [_model notifyDelegates: @selector(progressStatusBegan:) object: @"Posting comment..."];
+
     self.urlString = [NSString stringWithFormat: @"%@/task_comments.json", STAGING_URL];
     self.url = [NSURL URLWithString: urlString];
 
@@ -66,8 +68,11 @@
         NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData: request.responseData options: kNilOptions error: &error];
         if (dictionary == nil) {
             NSLog(@"%@ failed.", NSStringFromClass([self class]));
+            [self operationSucceededWithString: @"Post comment failed."];
         } else {
             NSLog(@"%@ succeeded.", NSStringFromClass([self class]));
+            [self operationSucceededWithString: @"Post comment succeeded."];
+
 
             DiscussionItem *item = [[DiscussionItem alloc] initWithDictionary: dictionary];
             [_model notifyDelegates: @selector(taskUpdated:discussionItem:) object: task andObject: item];

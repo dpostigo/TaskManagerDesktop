@@ -115,6 +115,7 @@
 		03C9B6BA174539C800B35213 /* LoginOutlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C9B6B9174539C800B35213 /* LoginOutlineViewController.xib */; };
 		03C9B6F417457F3D00B35213 /* BasicBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9B6F117457F3D00B35213 /* BasicBackgroundView.m */; };
 		03C9B6F517457F3D00B35213 /* BasicButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9B6F317457F3D00B35213 /* BasicButtonCell.m */; };
+		03E2C9671761FF420088D023 /* YRKSpinningProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		03E747C4174FCF3200D41E30 /* TaskEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E747C3174FCF3200D41E30 /* TaskEditViewController.m */; };
 		03E747CE175408DA00D41E30 /* NSImage+NiceScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E747CD175408DA00D41E30 /* NSImage+NiceScaling.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu2.xib */; };
@@ -399,6 +400,8 @@
 		03C9B6F117457F3D00B35213 /* BasicBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicBackgroundView.m; sourceTree = "<group>"; };
 		03C9B6F217457F3D00B35213 /* BasicButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicButtonCell.h; sourceTree = "<group>"; };
 		03C9B6F317457F3D00B35213 /* BasicButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicButtonCell.m; sourceTree = "<group>"; };
+		03E2C9651761FF420088D023 /* YRKSpinningProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRKSpinningProgressIndicator.h; sourceTree = "<group>"; };
+		03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRKSpinningProgressIndicator.m; sourceTree = "<group>"; };
 		03E747C2174FCF3200D41E30 /* TaskEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskEditViewController.h; path = src/backoffice/viewcontrollers/TaskEditViewController.h; sourceTree = "<group>"; };
 		03E747C3174FCF3200D41E30 /* TaskEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskEditViewController.m; path = src/backoffice/viewcontrollers/TaskEditViewController.m; sourceTree = "<group>"; };
 		03E747CC175408DA00D41E30 /* NSImage+NiceScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+NiceScaling.h"; path = "src/utils/NSImage+NiceScaling.h"; sourceTree = "<group>"; };
@@ -784,6 +787,7 @@
 		03C9B58A1745138300B35213 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				03E2C9641761FF420088D023 /* YRKSpinningProgressIndicator */,
 				03A3812417471D8F002071FC /* DEGS Classes */,
 				03A3810A17468F04002071FC /* AGCenteringClipView */,
 				03A380FB1745D674002071FC /* TTTTimeIntervalFormatter */,
@@ -1112,6 +1116,16 @@
 				7CA4470C00480FB5F22F158E /* BasicTokenField.h */,
 			);
 			name = controls;
+			sourceTree = "<group>";
+		};
+		03E2C9641761FF420088D023 /* YRKSpinningProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				03E2C9651761FF420088D023 /* YRKSpinningProgressIndicator.h */,
+				03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */,
+			);
+			name = YRKSpinningProgressIndicator;
+			path = src/libs/YRKSpinningProgressIndicator;
 			sourceTree = "<group>";
 		};
 		03F5A60516D3CC3A008E3896 /* All Classes */ = {
@@ -1627,6 +1641,7 @@
 				7CA44A860BDED49350F1B90C /* BasicImageCell.m in Sources */,
 				03E747CE175408DA00D41E30 /* NSImage+NiceScaling.m in Sources */,
 				7CA441F9127DAB93A6817DD7 /* NSAttributedString+DPUtils.m in Sources */,
+				03E2C9671761FF420088D023 /* YRKSpinningProgressIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

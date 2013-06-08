@@ -18,7 +18,6 @@
 @synthesize backgroundView;
 @synthesize controlsArray;
 @synthesize autoTabbing;
-
 @synthesize navigationBar;
 @synthesize showsNavigationBar;
 @synthesize navigationController;
@@ -187,6 +186,15 @@
 }
 
 - (void) textFieldEndedEditing: (NSTextField *) textField withRowObject: (TableRowObject *) rowObject tableSection: (TableSection *) tableSection {
+}
+
+
+
+
+#pragma mark Push / pop
+
+- (void) viewDidAppear {
+
 }
 
 @end

@@ -47,4 +47,15 @@
     return output;
 }
 
+
+- (void) operationFailedWithString: (NSString *) string {
+    [_model notifyDelegates: @selector(progressStatusEndedWithString:) object: string];
+
+
+}
+
+- (void) operationSucceededWithString: (NSString *) string {
+    [_model notifyDelegates: @selector(progressStatusEndedWithString:) object: string];
+}
+
 @end

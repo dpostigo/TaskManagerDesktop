@@ -24,10 +24,6 @@
 
 
 @synthesize modalSize;
-//@synthesize jobTokenField;
-//@synthesize assigneeTokenField;
-//@synthesize serviceItemTokenField;
-//@synthesize observersTokenField;
 
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];

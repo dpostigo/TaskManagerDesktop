@@ -38,4 +38,6 @@
 - (NSView *) cellForRowObject: (TableRowObject *) rowObject tableSection: (TableSection *) tableSection;
 - (id) objectValueForTableSection: (TableSection *) tableSection andRow: (TableRowObject *) rowObject;
 - (void) configureCell: (BasicTableCellView *) cell forRowObject: (TableRowObject *) rowObject tableSection: (TableSection *) tableSection;
+- (void) insertRowObject: (TableRowObject *) rowObject inSection: (TableSection *) tableSection;
+- (void) insertRowObject: (TableRowObject *) rowObject inSection: (TableSection *) tableSection withAnimation: (NSTableViewAnimationOptions) options;
 @end

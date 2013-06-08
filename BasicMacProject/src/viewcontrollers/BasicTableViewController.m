@@ -125,6 +125,19 @@
 #pragma mark IBActions
 
 
+- (void) insertRowObject: (TableRowObject *) rowObject inSection: (TableSection *) tableSection {
+    [self insertRowObject: rowObject inSection: tableSection withAnimation: NSTableViewAnimationEffectFade];
+}
+
+
+- (void) insertRowObject: (TableRowObject *) rowObject inSection: (TableSection *) tableSection withAnimation: (NSTableViewAnimationOptions) options {
+    [tableSection.rows addObject: rowObject];
+    NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex: tableSection.rows.count - 1];
+    [table insertRowsAtIndexes: indexSet withAnimation: options];
+}
+
+
+
 #pragma mark Callbacks
 
 

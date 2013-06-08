@@ -12,7 +12,7 @@
 #import "TaskDetailViewController.h"
 
 
-@interface TaskDiscussionViewController : BasicTableViewController {
+@interface TaskDiscussionViewController : BasicTableViewController <BasicTextFieldDelegate> {
     __unsafe_unretained TaskDetailViewController *detailController;
 }
 

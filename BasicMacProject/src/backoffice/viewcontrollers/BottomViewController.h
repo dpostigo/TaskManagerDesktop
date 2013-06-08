@@ -8,9 +8,15 @@
 #import <Foundation/Foundation.h>
 #import "BasicViewController.h"
 
+@class YRKSpinningProgressIndicator;
 
 @interface BottomViewController : BasicViewController {
 
     IBOutlet NSButton *settingsButton;
+    IBOutlet YRKSpinningProgressIndicator *indicator;
+    IBOutlet NSTextField *statusLabel;
+    IBOutlet NSView *statusIndicatorContainer;
+
+    NSColor *indicatorColor;
 }
 @end

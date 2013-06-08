@@ -6,7 +6,6 @@
 
 
 #import "BasicTextField.h"
-#import "NSTextField+DPUtils.h"
 
 
 @implementation BasicTextField {
@@ -16,30 +15,52 @@
 @synthesize rowObject;
 @synthesize tableSection;
 @synthesize shadow;
-
-@synthesize text;
+@synthesize delegate;
 
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];
     if (self) {
+        self.shadow = [[NSShadow alloc] init];
+        self.shadowBlurRadius = 0;
+        self.shadowColor = [NSColor clearColor];
+        self.shadowOffset = NSMakeSize(0, 0);
     }
 
     return self;
 }
 
-
-- (NSShadow *) shadow {
-    if (shadow == nil) {
-        shadow = [[NSShadow alloc] init];
-        [shadow addObserver: self forKeyPath: @"shadowColor" options: (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) context: NULL];
-
-    }
-    return shadow;
+- (NSColor *) shadowColor {
+    return shadow.shadowColor;
 }
 
+- (NSSize) shadowOffset {
+    return shadow.shadowOffset;
+}
+
+- (CGFloat) shadowBlurRadius {
+    return shadow.shadowBlurRadius;
+}
+
+- (void) setShadowColor: (NSColor *) color {
+    shadow.shadowColor = color;
+    [self updateShadow];
+}
+
+- (void) setShadowOffset: (NSSize) size {
+    shadow.shadowOffset = size;
+    [self updateShadow];
+}
+
+- (void) setShadowBlurRadius: (CGFloat) blurRadius {
+    shadow.shadowBlurRadius = blurRadius;
+    [self updateShadow];
+}
 
 - (void) updateShadow {
-    [self setAttributedShadow: shadow];
+    //    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedStringValue];
+    //    NSRange range = NSMakeRange(0, string.string.length);
+    //    [string addAttribute: NSShadowAttributeName value: shadow range: range];
+    //    self.attributedStringValue = string;
 }
 
 - (void) updateShadowWithString: (NSString *) string {
@@ -51,14 +72,25 @@
 }
 
 
-- (void) observeValueForKeyPath: (NSString *) keyPath ofObject: (id) object change: (NSDictionary *) change context: (void *) context {
-    if (object == shadow) {
-        [self updateShadow];
-    }
+
+#pragma mark Convenience
+
+- (void) setText: (NSString *) string {
+    self.stringValue = string;
+}
+#pragma mark Delegating
+
+- (void) textDidChange: (NSNotification *) notification {
+    [super textDidChange: notification];
+    [self notifyDelegate: @selector(textFieldDidChange:notification:) object: self andObject: notification];
 }
 
-- (void) dealloc {
-    [shadow removeObserver: self forKeyPath: @"shadowColor"];
+
+- (void) notifyDelegate: (SEL) selector object: (id) object1 andObject: (id) object2 {
+    if (delegate != nil && [delegate respondsToSelector: selector]) {
+        [delegate performSelector: selector withObject: object1 withObject: object2];
+    }
+
 }
 
 

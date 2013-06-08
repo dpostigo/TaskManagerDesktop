@@ -17,6 +17,8 @@
 
 @synthesize splitContainers;
 
+@synthesize dividerColor;
+
 - (id) initWithCoder: (NSCoder *) coder {
     self = [super initWithCoder: coder];
     if (self) {
@@ -26,6 +28,11 @@
 
     return self;
 }
+
+
+#pragma mark Display customization
+
+
 
 
 - (void) awakeFromNib {

@@ -164,11 +164,13 @@
         [newController.view animateInDirection: NSViewAnimationDirectionFromRight amount: newController.view.width duration: defaultAnimationDuration alpha: 1 completionHandler: ^{
             isAnimating = NO;
             completionHandler();
+            [newController viewDidAppear];
         }];
         [self.view addSubview: newController.view];
     } else {
         [self.view addSubview: newController.view];
         isAnimating = NO;
+        [newController viewDidAppear];
     }
 }
 
@@ -217,21 +219,7 @@
     rect.size.height = controller.showsNavigationBar ? self.view.height - navigationBarHeight : self.view.height;
     return rect;
 }
-//
-//- (NSRect) viewControllerPoppedRect: (VeryBasicViewController *) controller {
-//
-//    NSRect rect = NSZeroRect;
-//    rect;
-//    return rect;
-//}
 
-
-- (NSRect) navigationBarRect: (VeryBasicViewController *) controller {
-    if (controller.showsNavigationBar) {
-        return [self navigationBarVisibleRect];
-    }
-    return [self navigationBarHiddenRect];
-}
 
 - (NSRect) navigationBarHiddenRect {
     NSRect hiddenRect = NSZeroRect;

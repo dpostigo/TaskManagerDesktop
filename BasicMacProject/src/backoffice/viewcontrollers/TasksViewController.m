@@ -48,6 +48,13 @@
     taskDetailController = [[TaskDetailViewController alloc] initWithDefaultNib];
 }
 
+- (void) viewDidAppear {
+    [super viewDidAppear];
+
+    [outline deselectAll: self];
+}
+
+
 - (void) prepareDataSource {
     [super prepareDataSource];
 

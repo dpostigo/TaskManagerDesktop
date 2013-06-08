@@ -115,6 +115,7 @@
 		03C9B6BA174539C800B35213 /* LoginOutlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C9B6B9174539C800B35213 /* LoginOutlineViewController.xib */; };
 		03C9B6F417457F3D00B35213 /* BasicBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9B6F117457F3D00B35213 /* BasicBackgroundView.m */; };
 		03C9B6F517457F3D00B35213 /* BasicButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9B6F317457F3D00B35213 /* BasicButtonCell.m */; };
+		03E2C9671761FF420088D023 /* YRKSpinningProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		03E747C4174FCF3200D41E30 /* TaskEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E747C3174FCF3200D41E30 /* TaskEditViewController.m */; };
 		03E747CE175408DA00D41E30 /* NSImage+NiceScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E747CD175408DA00D41E30 /* NSImage+NiceScaling.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu2.xib */; };
@@ -133,6 +134,7 @@
 		7CA441408D9FAFAAD212BFB4 /* BONavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4422C6096ACB0F1BD25D9 /* BONavigationBar.m */; };
 		7CA44178BCC6124CA89D37BF /* BOModalTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A1A8DCB5797984D7B57 /* BOModalTableRowView.m */; };
 		7CA4418ABE7BCF62C449C3AE /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44E436B5DD1E3D5100873 /* NavigationController.m */; };
+		7CA441F9127DAB93A6817DD7 /* NSAttributedString+DPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44C65E8570D6928476910 /* NSAttributedString+DPUtils.m */; };
 		7CA4421A51310BB190E485E5 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4452F79641BDCFD6DF970 /* CustomTextField.m */; };
 		7CA44294771349B64BF2888F /* BOModalBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44807901D5EDF04404967 /* BOModalBackgroundView.m */; };
 		7CA44294FD460039E707ECCF /* BasicTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA442E1AE9AB176481098E4 /* BasicTableViewDelegate.m */; };
@@ -166,9 +168,8 @@
 		7CA44826607A7EB9E24E3049 /* BasicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4499CC6848B124FC31A2D /* BasicListViewController.m */; };
 		7CA4485B1AF9D4A30E25C08E /* BOIconButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4474D55F68778907D82F2 /* BOIconButtonCell.m */; };
 		7CA448969E1A7DAA9F55202F /* BasicTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4403D3E715A0E7BAAD089 /* BasicTableCellView.m */; };
-		7CA448AC5B07E2EAEFDBEBEC /* NSTextField+DPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A862B4021080B510D1B /* NSTextField+DPUtils.m */; };
+		7CA448AC5B07E2EAEFDBEBEC /* NSTextField+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A862B4021080B510D1B /* NSTextField+Utils.m */; };
 		7CA44900256F1D835EC061A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA442AFE09498F2E79BD57C /* AppDelegate.m */; };
-		7CA44926A5C7E5DEE55D86D7 /* GetTasksOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44B58C4A405AD09108451 /* GetTasksOperation2.m */; };
 		7CA44978316D305D37047B52 /* BasicInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA448E97592BBAA9E4F57C2 /* BasicInnerShadowView.m */; };
 		7CA44A559A200135AAB78D1C /* BasicOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA441FEEA306BB4EAF6D048 /* BasicOutlineViewController.m */; };
 		7CA44A860BDED49350F1B90C /* BasicImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA442BD5108BA3B24ED6FBD /* BasicImageCell.m */; };
@@ -399,6 +400,8 @@
 		03C9B6F117457F3D00B35213 /* BasicBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicBackgroundView.m; sourceTree = "<group>"; };
 		03C9B6F217457F3D00B35213 /* BasicButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicButtonCell.h; sourceTree = "<group>"; };
 		03C9B6F317457F3D00B35213 /* BasicButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicButtonCell.m; sourceTree = "<group>"; };
+		03E2C9651761FF420088D023 /* YRKSpinningProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRKSpinningProgressIndicator.h; sourceTree = "<group>"; };
+		03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRKSpinningProgressIndicator.m; sourceTree = "<group>"; };
 		03E747C2174FCF3200D41E30 /* TaskEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskEditViewController.h; path = src/backoffice/viewcontrollers/TaskEditViewController.h; sourceTree = "<group>"; };
 		03E747C3174FCF3200D41E30 /* TaskEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskEditViewController.m; path = src/backoffice/viewcontrollers/TaskEditViewController.m; sourceTree = "<group>"; };
 		03E747CC175408DA00D41E30 /* NSImage+NiceScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+NiceScaling.h"; path = "src/utils/NSImage+NiceScaling.h"; sourceTree = "<group>"; };
@@ -426,6 +429,7 @@
 		7CA440AEB2CEF703354B8815 /* BasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTableViewController.m; path = src/viewcontrollers/BasicTableViewController.m; sourceTree = "<group>"; };
 		7CA440B11DB069B22DA524A7 /* BasicTokenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTokenCell.h; path = src/controls/table/BasicTokenCell.h; sourceTree = "<group>"; };
 		7CA440DF50D7A1B2F8C17095 /* DPCustomWindowDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPCustomWindowDelegateProxy.m; path = src/libs/DPCustomWindow/DPCustomWindowDelegateProxy.m; sourceTree = "<group>"; };
+		7CA440E665F9B69C254997BC /* NSAttributedString+DPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+DPUtils.h"; path = "src/utils/NSAttributedString+DPUtils.h"; sourceTree = "<group>"; };
 		7CA441075E4FCD5D1037F326 /* BasicTokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTokenField.m; sourceTree = "<group>"; };
 		7CA4411E421CF20C87B176D8 /* BasicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicListViewController.h; path = src/viewcontrollers/BasicListViewController.h; sourceTree = "<group>"; };
 		7CA44147701F3AA2F0EAD6D3 /* BOWhiteTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOWhiteTextButton.m; path = src/backoffice/controls/buttons/BOWhiteTextButton.m; sourceTree = "<group>"; };
@@ -470,7 +474,6 @@
 		7CA443ACD3C9E8E87E8F34CD /* LoginOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginOutlineViewController.h; path = src/backoffice/viewcontrollers/LoginOutlineViewController.h; sourceTree = "<group>"; };
 		7CA443B9E25B999AAD6D62B0 /* DPImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPImageManager.m; path = src/libs/DPImageManager/DPImageManager.m; sourceTree = "<group>"; };
 		7CA443C7FE059716DA20DA1A /* BasicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTableView.h; path = src/controls/table/BasicTableView.h; sourceTree = "<group>"; };
-		7CA443F578FA4B56793499D9 /* GetTasksOperation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetTasksOperation2.h; path = src/backoffice/operations/GetTasksOperation2.h; sourceTree = "<group>"; };
 		7CA443FBFB91F7D9BE1740E8 /* BasicBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicBlackView.h; path = src/views/colors/BasicBlackView.h; sourceTree = "<group>"; };
 		7CA4440A2D48CDB3280D669D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = src/backoffice/viewcontrollers/MainViewController.m; sourceTree = "<group>"; };
 		7CA44417002C2E4CC3470B22 /* BasicSecureTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicSecureTextField.m; path = src/controls/textfield/BasicSecureTextField.m; sourceTree = "<group>"; };
@@ -548,14 +551,14 @@
 		7CA44A56C10EAB34CBEBB2A7 /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundedView.h; path = src/views/RoundedView.h; sourceTree = "<group>"; };
 		7CA44A713BB47ACC9DD3E3D1 /* NSButton+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSButton+TextColor.h"; path = "src/utils/NSButton+TextColor.h"; sourceTree = "<group>"; };
 		7CA44A79BB8636CF331F3DDB /* TitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleBarViewController.h; path = src/backoffice/viewcontrollers/TitleBarViewController.h; sourceTree = "<group>"; };
-		7CA44A862B4021080B510D1B /* NSTextField+DPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTextField+DPUtils.m"; path = "src/utils/NSTextField+DPUtils.m"; sourceTree = "<group>"; };
+		7CA44A862B4021080B510D1B /* NSTextField+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTextField+Utils.m"; path = "src/utils/NSTextField+Utils.m"; sourceTree = "<group>"; };
 		7CA44A86BE7A26528C8B7CCF /* BasicWhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWhiteView.m; path = src/views/colors/BasicWhiteView.m; sourceTree = "<group>"; };
 		7CA44B034C085886CEEC96AE /* BasicOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicOutlineView.h; path = src/views/BasicOutlineView.h; sourceTree = "<group>"; };
 		7CA44B4E5F5FFFC16B0FD649 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = src/viewcontrollers/NavigationController.h; sourceTree = "<group>"; };
-		7CA44B58C4A405AD09108451 /* GetTasksOperation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetTasksOperation2.m; path = src/backoffice/operations/GetTasksOperation2.m; sourceTree = "<group>"; };
 		7CA44BB35B27FCDA7FC7890C /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicView.m; path = src/views/BasicView.m; sourceTree = "<group>"; };
 		7CA44BC7DD63E54B43CCE5BF /* DPCustomWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPCustomWindowButton.h; path = src/libs/DPCustomWindow/DPCustomWindowButton.h; sourceTree = "<group>"; };
 		7CA44C58B96D0AC3A1BAEC70 /* BOTitleBarBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOTitleBarBackground.m; path = src/backoffice/controls/views/BOTitleBarBackground.m; sourceTree = "<group>"; };
+		7CA44C65E8570D6928476910 /* NSAttributedString+DPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+DPUtils.m"; path = "src/utils/NSAttributedString+DPUtils.m"; sourceTree = "<group>"; };
 		7CA44CC9465462BEC1C66997 /* BOModalFooterBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOModalFooterBackgroundView.h; path = src/backoffice/controls/views/BOModalFooterBackgroundView.h; sourceTree = "<group>"; };
 		7CA44CDDF14E553BF220BAA9 /* NSImageView+DPImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImageView+DPImageManager.m"; path = "src/libs/DPImageManager/NSImageView+DPImageManager.m"; sourceTree = "<group>"; };
 		7CA44D406B91823A0A9E3D9E /* BOTitleBarBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOTitleBarBackground.h; path = src/backoffice/controls/views/BOTitleBarBackground.h; sourceTree = "<group>"; };
@@ -563,7 +566,7 @@
 		7CA44D7011CEB14F6C428DD3 /* LoginOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginOutlineViewController.m; path = src/backoffice/viewcontrollers/LoginOutlineViewController.m; sourceTree = "<group>"; };
 		7CA44D79DA0CA5ACB0FFEDED /* HoverTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoverTableRowView.h; path = src/libs/HoverTableDemo/HoverTableRowView.h; sourceTree = "<group>"; };
 		7CA44D88C294FBC64DCA96CB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = src/backoffice/viewcontrollers/MainViewController.h; sourceTree = "<group>"; };
-		7CA44DA6A9F23CEBEE1120AF /* NSTextField+DPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextField+DPUtils.h"; path = "src/utils/NSTextField+DPUtils.h"; sourceTree = "<group>"; };
+		7CA44DA6A9F23CEBEE1120AF /* NSTextField+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextField+Utils.h"; path = "src/utils/NSTextField+Utils.h"; sourceTree = "<group>"; };
 		7CA44DDEB4B7053F25A165EB /* VeryBasicButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeryBasicButtonCell.h; path = src/controls/buttons/buttonCells/VeryBasicButtonCell.h; sourceTree = "<group>"; };
 		7CA44DF384C708A9833897A5 /* NSView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+Utils.m"; path = "src/utils/NSView+Utils.m"; sourceTree = "<group>"; };
 		7CA44E378829E50B789780D5 /* BasicTextFieldCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTextFieldCellView.h; path = src/controls/outline/BasicTextFieldCellView.h; sourceTree = "<group>"; };
@@ -784,6 +787,7 @@
 		03C9B58A1745138300B35213 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				03E2C9641761FF420088D023 /* YRKSpinningProgressIndicator */,
 				03A3812417471D8F002071FC /* DEGS Classes */,
 				03A3810A17468F04002071FC /* AGCenteringClipView */,
 				03A380FB1745D674002071FC /* TTTTimeIntervalFormatter */,
@@ -1114,6 +1118,16 @@
 			name = controls;
 			sourceTree = "<group>";
 		};
+		03E2C9641761FF420088D023 /* YRKSpinningProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				03E2C9651761FF420088D023 /* YRKSpinningProgressIndicator.h */,
+				03E2C9661761FF420088D023 /* YRKSpinningProgressIndicator.m */,
+			);
+			name = YRKSpinningProgressIndicator;
+			path = src/libs/YRKSpinningProgressIndicator;
+			sourceTree = "<group>";
+		};
 		03F5A60516D3CC3A008E3896 /* All Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1223,8 +1237,8 @@
 				7CA44EFC9A4CF7BA4B956DCC /* BasicSecureTextField.h */,
 				7CA44FC4C9BC0481F2C1DDC8 /* BottomViewController.m */,
 				7CA44162E115D3C15451A6A0 /* BottomViewController.h */,
-				7CA44A862B4021080B510D1B /* NSTextField+DPUtils.m */,
-				7CA44DA6A9F23CEBEE1120AF /* NSTextField+DPUtils.h */,
+				7CA44A862B4021080B510D1B /* NSTextField+Utils.m */,
+				7CA44DA6A9F23CEBEE1120AF /* NSTextField+Utils.h */,
 				7CA44A86BE7A26528C8B7CCF /* BasicWhiteView.m */,
 				7CA441E18BB1B13D69A0CA35 /* BasicWhiteView.h */,
 				7CA444C193A420CA48998467 /* BasicBlackView.m */,
@@ -1311,8 +1325,8 @@
 				7CA447874183A63202405609 /* DPImageView.h */,
 				7CA442BD5108BA3B24ED6FBD /* BasicImageCell.m */,
 				7CA4479350766BF4C772FB9C /* BasicImageCell.h */,
-				7CA44B58C4A405AD09108451 /* GetTasksOperation2.m */,
-				7CA443F578FA4B56793499D9 /* GetTasksOperation2.h */,
+				7CA44C65E8570D6928476910 /* NSAttributedString+DPUtils.m */,
+				7CA440E665F9B69C254997BC /* NSAttributedString+DPUtils.h */,
 			);
 			name = SidebarDemo;
 			sourceTree = "<group>";
@@ -1561,7 +1575,7 @@
 				7CA4459BEB2E37495A22FB1D /* BottomViewController.m in Sources */,
 				03A380F71745D237002071FC /* NSDate+BOUtils.m in Sources */,
 				03A380FA1745D2A3002071FC /* NSImage+Utils.m in Sources */,
-				7CA448AC5B07E2EAEFDBEBEC /* NSTextField+DPUtils.m in Sources */,
+				7CA448AC5B07E2EAEFDBEBEC /* NSTextField+Utils.m in Sources */,
 				03A380FE1745D674002071FC /* TTTTimeIntervalFormatter.m in Sources */,
 				03A381011745D69F002071FC /* NSString+Utils.m in Sources */,
 				03A381041745D6FA002071FC /* TasksViewController.m in Sources */,
@@ -1626,7 +1640,8 @@
 				7CA4470C5FB41A45FF7A7F67 /* DPImageView.m in Sources */,
 				7CA44A860BDED49350F1B90C /* BasicImageCell.m in Sources */,
 				03E747CE175408DA00D41E30 /* NSImage+NiceScaling.m in Sources */,
-				7CA44926A5C7E5DEE55D86D7 /* GetTasksOperation2.m in Sources */,
+				7CA441F9127DAB93A6817DD7 /* NSAttributedString+DPUtils.m in Sources */,
+				03E2C9671761FF420088D023 /* YRKSpinningProgressIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

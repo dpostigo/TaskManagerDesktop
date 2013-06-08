@@ -15,6 +15,8 @@
 			<string>NSButtonCell</string>
 			<string>NSCustomObject</string>
 			<string>NSCustomView</string>
+			<string>NSTextField</string>
+			<string>NSTextFieldCell</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -41,6 +43,69 @@
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">274</int>
 						<array class="NSMutableArray" key="NSSubviews">
+							<object class="NSCustomView" id="154875528">
+								<reference key="NSNextResponder" ref="103719843"/>
+								<int key="NSvFlags">274</int>
+								<array class="NSMutableArray" key="NSSubviews">
+									<object class="NSCustomView" id="581073841">
+										<reference key="NSNextResponder" ref="154875528"/>
+										<int key="NSvFlags">268</int>
+										<string key="NSFrame">{{12, 13}, {15, 15}}</string>
+										<reference key="NSSuperview" ref="154875528"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="788699890"/>
+										<string key="NSReuseIdentifierKey">_NS:9</string>
+										<string key="NSClassName">YRKSpinningProgressIndicator</string>
+									</object>
+									<object class="NSTextField" id="788699890">
+										<reference key="NSNextResponder" ref="154875528"/>
+										<int key="NSvFlags">266</int>
+										<string key="NSFrame">{{34, 15}, {377, 11}}</string>
+										<reference key="NSSuperview" ref="154875528"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="494341285"/>
+										<string key="NSReuseIdentifierKey">_NS:1535</string>
+										<bool key="NSEnabled">YES</bool>
+										<object class="NSTextFieldCell" key="NSCell" id="619606237">
+											<int key="NSCellFlags">68157504</int>
+											<int key="NSCellFlags2">272630784</int>
+											<string key="NSContents">Working...</string>
+											<object class="NSFont" key="NSSupport">
+												<string key="NSName">LucidaGrande</string>
+												<double key="NSSize">9</double>
+												<int key="NSfFlags">3614</int>
+											</object>
+											<string key="NSCellIdentifier">_NS:1535</string>
+											<reference key="NSControlView" ref="788699890"/>
+											<object class="NSColor" key="NSBackgroundColor">
+												<int key="NSColorSpace">6</int>
+												<string key="NSCatalogName">System</string>
+												<string key="NSColorName">controlColor</string>
+												<object class="NSColor" key="NSColor">
+													<int key="NSColorSpace">3</int>
+													<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+												</object>
+											</object>
+											<object class="NSColor" key="NSTextColor">
+												<int key="NSColorSpace">6</int>
+												<string key="NSCatalogName">System</string>
+												<string key="NSColorName">controlTextColor</string>
+												<object class="NSColor" key="NSColor">
+													<int key="NSColorSpace">3</int>
+													<bytes key="NSWhite">MAA</bytes>
+												</object>
+											</object>
+										</object>
+										<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									</object>
+								</array>
+								<string key="NSFrameSize">{434, 40}</string>
+								<reference key="NSSuperview" ref="103719843"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="581073841"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<string key="NSClassName">NSView</string>
+							</object>
 							<object class="NSButton" id="494341285">
 								<reference key="NSNextResponder" ref="103719843"/>
 								<int key="NSvFlags">297</int>
@@ -78,7 +143,7 @@
 						<string key="NSFrameSize">{480, 40}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="494341285"/>
+						<reference key="NSNextKeyView" ref="154875528"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<string key="NSClassName">BasicBlackView</string>
 					</object>
@@ -145,6 +210,30 @@
 					</object>
 					<int key="connectionID">15</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">statusLabel</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="788699890"/>
+					</object>
+					<int key="connectionID">36</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">indicator</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="581073841"/>
+					</object>
+					<int key="connectionID">39</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">statusIndicatorContainer</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="154875528"/>
+					</object>
+					<int key="connectionID">41</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -185,6 +274,7 @@
 						<reference key="object" ref="103719843"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="494341285"/>
+							<reference ref="154875528"/>
 						</array>
 						<reference key="parent" ref="1005"/>
 					</object>
@@ -222,6 +312,33 @@
 						<reference key="object" ref="729637678"/>
 						<reference key="parent" ref="494341285"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">40</int>
+						<reference key="object" ref="154875528"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="581073841"/>
+							<reference ref="788699890"/>
+						</array>
+						<reference key="parent" ref="103719843"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">34</int>
+						<reference key="object" ref="788699890"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="619606237"/>
+						</array>
+						<reference key="parent" ref="154875528"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">35</int>
+						<reference key="object" ref="619606237"/>
+						<reference key="parent" ref="788699890"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">38</int>
+						<reference key="object" ref="581073841"/>
+						<reference key="parent" ref="154875528"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -236,12 +353,16 @@
 				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="30.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="34.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="35.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="38.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">31</int>
+			<int key="maxID">41</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -263,7 +384,7 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">BasicButtonCell</string>
-					<string key="superclassName">NSButtonCell</string>
+					<string key="superclassName">VeryBasicButtonCell</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/BasicButtonCell.h</string>
@@ -329,17 +450,30 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">BottomViewController</string>
 					<string key="superclassName">BasicViewController</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">settingsButton</string>
-						<string key="NS.object.0">NSButton</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">settingsButton</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="indicator">YRKSpinningProgressIndicator</string>
+						<string key="settingsButton">NSButton</string>
+						<string key="statusIndicatorContainer">NSView</string>
+						<string key="statusLabel">NSTextField</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="indicator">
+							<string key="name">indicator</string>
+							<string key="candidateClassName">YRKSpinningProgressIndicator</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="settingsButton">
 							<string key="name">settingsButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
-					</object>
+						<object class="IBToOneOutletInfo" key="statusIndicatorContainer">
+							<string key="name">statusIndicatorContainer</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="statusLabel">
+							<string key="name">statusLabel</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/BottomViewController.h</string>
@@ -373,6 +507,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/NavigationBar.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">VeryBasicButtonCell</string>
+					<string key="superclassName">NSButtonCell</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/VeryBasicButtonCell.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -419,6 +561,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/VeryBasicViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">YRKSpinningProgressIndicator</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/YRKSpinningProgressIndicator.h</string>
 					</object>
 				</object>
 			</array>

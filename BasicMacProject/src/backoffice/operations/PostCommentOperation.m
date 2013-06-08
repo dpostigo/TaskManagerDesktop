@@ -31,6 +31,8 @@
 - (void) main {
     [super main];
 
+    [_model notifyDelegates: @selector(progressStatusBegan:) object: @"Posting comment..."];
+
     self.urlString = [NSString stringWithFormat: @"%@/task_comments.json", STAGING_URL];
     self.url = [NSURL URLWithString: urlString];
 
@@ -55,6 +57,8 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject: jsonDict options: kNilOptions error: nil];
     NSString *jsonString = [[NSString alloc] initWithData: jsonData encoding: NSUTF8StringEncoding];
 
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     NSString *postStr = [NSString stringWithFormat: @"%@", jsonString];
     [request appendPostData: [postStr dataUsingEncoding: NSUTF8StringEncoding]];
     [request startSynchronous];
@@ -64,11 +68,14 @@
         NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData: request.responseData options: kNilOptions error: &error];
         if (dictionary == nil) {
             NSLog(@"%@ failed.", NSStringFromClass([self class]));
+            [self operationSucceededWithString: @"Post comment failed."];
         } else {
             NSLog(@"%@ succeeded.", NSStringFromClass([self class]));
+            [self operationSucceededWithString: @"Post comment succeeded."];
+
 
             DiscussionItem *item = [[DiscussionItem alloc] initWithDictionary: dictionary];
-            [_model notifyDelegates: @selector(taskUpdated:withNewItem:) object: task andObject: item];
+            [_model notifyDelegates: @selector(taskUpdated:discussionItem:) object: task andObject: item];
         }
     }
 }
